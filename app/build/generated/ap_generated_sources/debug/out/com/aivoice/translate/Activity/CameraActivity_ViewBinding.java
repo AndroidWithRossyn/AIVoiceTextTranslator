@@ -15,11 +15,11 @@ import java.lang.Override;
 public class CameraActivity_ViewBinding implements Unbinder {
   private CameraActivity target;
 
-  private View view7f0a0113;
+  private View view7f0a010b;
 
-  private View view7f0a0116;
+  private View view7f0a010e;
 
-  private View view7f0a0114;
+  private View view7f0a010c;
 
   @UiThread
   public CameraActivity_ViewBinding(CameraActivity target) {
@@ -33,7 +33,7 @@ public class CameraActivity_ViewBinding implements Unbinder {
     View view;
     target.cameraView = Utils.findRequiredViewAsType(source, R.id.surface_view, "field 'cameraView'", SurfaceView.class);
     view = Utils.findRequiredView(source, R.id.mIVBack, "method 'onViewClicked'");
-    view7f0a0113 = view;
+    view7f0a010b = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -41,7 +41,7 @@ public class CameraActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.mIVGallery, "method 'onViewClicked'");
-    view7f0a0116 = view;
+    view7f0a010e = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -49,7 +49,7 @@ public class CameraActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.mIVCamera, "method 'onViewClicked'");
-    view7f0a0114 = view;
+    view7f0a010c = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -67,11 +67,11 @@ public class CameraActivity_ViewBinding implements Unbinder {
 
     target.cameraView = null;
 
-    view7f0a0113.setOnClickListener(null);
-    view7f0a0113 = null;
-    view7f0a0116.setOnClickListener(null);
-    view7f0a0116 = null;
-    view7f0a0114.setOnClickListener(null);
-    view7f0a0114 = null;
+    view7f0a010b.setOnClickListener(null);
+    view7f0a010b = null;
+    view7f0a010e.setOnClickListener(null);
+    view7f0a010e = null;
+    view7f0a010c.setOnClickListener(null);
+    view7f0a010c = null;
   }
 }

@@ -17,9 +17,9 @@ import java.lang.Override;
 public class IntroActivity_ViewBinding implements Unbinder {
   private IntroActivity target;
 
-  private View view7f0a0131;
+  private View view7f0a0129;
 
-  private View view7f0a012f;
+  private View view7f0a0127;
 
   @UiThread
   public IntroActivity_ViewBinding(IntroActivity target) {
@@ -35,7 +35,7 @@ public class IntroActivity_ViewBinding implements Unbinder {
     target.mLLTop = Utils.findRequiredViewAsType(source, R.id.mLLTop, "field 'mLLTop'", LinearLayout.class);
     view = Utils.findRequiredView(source, R.id.mTxtSkip, "field 'mTxtSkip' and method 'onViewClicked'");
     target.mTxtSkip = Utils.castView(view, R.id.mTxtSkip, "field 'mTxtSkip'", TextView.class);
-    view7f0a0131 = view;
+    view7f0a0129 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -45,7 +45,7 @@ public class IntroActivity_ViewBinding implements Unbinder {
     target.mLayoutDots = Utils.findRequiredViewAsType(source, R.id.mLayoutDots, "field 'mLayoutDots'", LinearLayout.class);
     view = Utils.findRequiredView(source, R.id.mTxtNext, "field 'mTxtNext' and method 'onViewClicked'");
     target.mTxtNext = Utils.castView(view, R.id.mTxtNext, "field 'mTxtNext'", TextView.class);
-    view7f0a012f = view;
+    view7f0a0127 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -67,9 +67,9 @@ public class IntroActivity_ViewBinding implements Unbinder {
     target.mLayoutDots = null;
     target.mTxtNext = null;
 
-    view7f0a0131.setOnClickListener(null);
-    view7f0a0131 = null;
-    view7f0a012f.setOnClickListener(null);
-    view7f0a012f = null;
+    view7f0a0129.setOnClickListener(null);
+    view7f0a0129 = null;
+    view7f0a0127.setOnClickListener(null);
+    view7f0a0127 = null;
   }
 }

@@ -295,7 +295,6 @@
             </com.google.android.material.card.MaterialCardView>
 
             <LinearLayout
-                android:id="@+id/native_ads1"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_300dp"
                 android:orientation="vertical" />

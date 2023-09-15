@@ -1,5 +1,7 @@
 package com.aivoice.translate.Activity;
 
+import static android.os.Build.VERSION.SDK_INT;
+
 import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
@@ -7,6 +9,7 @@ import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.util.SparseArray;
@@ -14,14 +17,13 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
+
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
 
-import com.aivoice.translate.AdsUtils.Interfaces.AppInterfaces;
 import com.aivoice.translate.AdsUtils.Utils.Global;
 import com.aivoice.translate.base.PermitConstant;
 import com.github.dhaval2404.imagepicker.ImagePicker;
@@ -30,8 +32,7 @@ import com.google.android.gms.vision.Detector;
 import com.google.android.gms.vision.Frame;
 import com.google.android.gms.vision.text.TextBlock;
 import com.google.android.gms.vision.text.TextRecognizer;
-import com.aivoice.translate.AdsUtils.FirebaseADHandlers.AdUtils;
-import com.aivoice.translate.AdsUtils.Utils.Constants;
+
 import com.aivoice.translate.R;
 import com.aivoice.translate.base.BaseActivity;
 import com.aivoice.translate.utils.Utils;
@@ -54,8 +55,7 @@ public class CameraActivity extends BaseActivity {
 
     @Override
     protected void initView(Bundle savedInstanceState) {
-        AdUtils.showNativeAd(CameraActivity.this, Constants.adsJsonPOJO.getParameters().getNative_id().getDefaultValue().getValue(), (LinearLayout) findViewById(R.id.native_small_ads), false);
-        TextRecognizer textRecognizer = new TextRecognizer.Builder(getApplicationContext()).build();
+      TextRecognizer textRecognizer = new TextRecognizer.Builder(getApplicationContext()).build();
         if (!textRecognizer.isOperational()) {
             Log.w("MainActivity", "Detector dependencies are not yet available");
         } else {
@@ -118,21 +118,17 @@ public class CameraActivity extends BaseActivity {
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.mIVBack:
-                AdUtils.showInterstitialAd(CameraActivity.this, new AppInterfaces.InterStitialADInterface() {
-                    @Override
-                    public void adLoadState(boolean isLoaded) {
-                        CameraActivity.super.onBackPressed();
-                    }
-                });
+                CameraActivity.super.onBackPressed();
+
                 break;
             case R.id.mIVGallery:
                 String[] permissions;
 
                 if (Global.isLatestVersion()) {
-                    permissions = new String[]{PermitConstant.Manifest_READ_EXTERNAL_STORAGE};
+                    permissions = new String[]{PermitConstant.Manifest_CAMERA, PermitConstant.READ_MEDIA_IMAGES,PermitConstant.READ_MEDIA_VIDEOS, PermitConstant.POST_NOTIFICATIONS};
                 } else {
-                    permissions = new String[]{PermitConstant.Manifest_READ_EXTERNAL_STORAGE,
-                            PermitConstant.Manifest_WRITE_EXTERNAL_STORAGE};
+                    permissions = new String[]{PermitConstant.Manifest_CAMERA, PermitConstant.Manifest_READ_EXTERNAL_STORAGE,  PermitConstant.Manifest_WRITE_EXTERNAL_STORAGE};
+
                 }
                 askCompactPermissions(permissions, new PermissionResult() {
                     @Override
@@ -225,11 +221,6 @@ public class CameraActivity extends BaseActivity {
 
     @Override
     public void onBackPressed() {
-        AdUtils.showInterstitialAd(CameraActivity.this, new AppInterfaces.InterStitialADInterface() {
-            @Override
-            public void adLoadState(boolean isLoaded) {
-                CameraActivity.super.onBackPressed();
-            }
-        });
+        CameraActivity.super.onBackPressed();
     }
 }

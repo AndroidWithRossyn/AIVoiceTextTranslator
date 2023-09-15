@@ -8,9 +8,6 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import com.aivoice.translate.AdsUtils.FirebaseADHandlers.AdUtils;
-import com.aivoice.translate.AdsUtils.Interfaces.AppInterfaces;
-import com.aivoice.translate.AdsUtils.Utils.Constants;
 import com.aivoice.translate.R;
 import com.aivoice.translate.base.BaseActivity;
 import com.aivoice.translate.base.PermitConstant;
@@ -30,30 +27,20 @@ public class StartActivity extends BaseActivity {
 
     @Override
     protected void initView(Bundle savedInstanceState) {
-        AdUtils.showNativeAd(StartActivity.this, Constants.adsJsonPOJO.getParameters().getNative_id().getDefaultValue().getValue(), (LinearLayout) findViewById(R.id.native_ads), true);
-    }
+
+   }
 
     @OnClick({R.id.mIVBack, R.id.mIVVoice, R.id.mIVText, R.id.mIVCamera})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.mIVBack:
-                AdUtils.showInterstitialAd(StartActivity.this, new AppInterfaces.InterStitialADInterface() {
-                    @Override
-                    public void adLoadState(boolean isLoaded) {
-                        StartActivity.super.onBackPressed();
-                    }
-                });
+                StartActivity.super.onBackPressed();
                 break;
             case R.id.mIVVoice:
                 mCheckVoicePermission();
                 break;
             case R.id.mIVText:
-                AdUtils.showInterstitialAd(StartActivity.this, new AppInterfaces.InterStitialADInterface() {
-                    @Override
-                    public void adLoadState(boolean isLoaded) {
-                        startActivity(new Intent(StartActivity.this, TextActivity.class));
-                    }
-                });
+                startActivity(new Intent(StartActivity.this, TextActivity.class));
                 break;
             case R.id.mIVCamera:
                 CheckPermission();
@@ -65,12 +52,7 @@ public class StartActivity extends BaseActivity {
         PermissionListener permissionlistener = new PermissionListener() {
             @Override
             public void onPermissionGranted() {
-                AdUtils.showInterstitialAd(StartActivity.this, new AppInterfaces.InterStitialADInterface() {
-                    @Override
-                    public void adLoadState(boolean isLoaded) {
-                        startActivity(new Intent(StartActivity.this, VoiceActivity.class));
-                    }
-                });
+                startActivity(new Intent(StartActivity.this, VoiceActivity.class));
             }
 
             @Override
@@ -96,12 +78,7 @@ public class StartActivity extends BaseActivity {
         PermissionListener permissionlistener = new PermissionListener() {
             @Override
             public void onPermissionGranted() {
-                AdUtils.showInterstitialAd(StartActivity.this, new AppInterfaces.InterStitialADInterface() {
-                    @Override
-                    public void adLoadState(boolean isLoaded) {
-                        startActivity(new Intent(StartActivity.this, CameraActivity.class));
-                    }
-                });
+                startActivity(new Intent(StartActivity.this, CameraActivity.class));
             }
 
             @Override
@@ -120,7 +97,7 @@ public class StartActivity extends BaseActivity {
                     .setDeniedMessage(
                             "If you reject permission,you can not use this service\n\nPlease turn on permissions at [Setting] > [Permission]")
                     .setGotoSettingButtonText("Settings")
-                    .setPermissions(Manifest.permission.CAMERA, PermitConstant.Manifest_READ_EXTERNAL_STORAGE)
+                    .setPermissions(PermitConstant.Manifest_CAMERA, PermitConstant.READ_MEDIA_IMAGES)
                     .check();
         } else {
             TedPermission.create()
@@ -170,11 +147,6 @@ public class StartActivity extends BaseActivity {
 
     @Override
     public void onBackPressed() {
-        AdUtils.showInterstitialAd(StartActivity.this, new AppInterfaces.InterStitialADInterface() {
-            @Override
-            public void adLoadState(boolean isLoaded) {
-                StartActivity.super.onBackPressed();
-            }
-        });
+        StartActivity.super.onBackPressed();
     }
 }

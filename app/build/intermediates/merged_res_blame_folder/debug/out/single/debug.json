@@ -92,10 +92,6 @@
         "source": "com.aivoice.translate.app-main-46:/drawable/ic_back.xml"
     },
     {
-        "merged": "com.aivoice.translate.app-merged_res-44:/layout_small_native_ad.xml.flat",
-        "source": "com.aivoice.translate.app-main-46:/layout/small_native_ad.xml"
-    },
-    {
         "merged": "com.aivoice.translate.app-merged_res-44:/font_poppinsregular.ttf.flat",
         "source": "com.aivoice.translate.app-main-46:/font/poppinsregular.ttf"
     },
@@ -144,10 +140,6 @@
         "source": "com.aivoice.translate.app-main-46:/layout/progressbar.xml"
     },
     {
-        "merged": "com.aivoice.translate.app-merged_res-44:/layout_full_native_ad_param.xml.flat",
-        "source": "com.aivoice.translate.app-main-46:/layout/full_native_ad_param.xml"
-    },
-    {
         "merged": "com.aivoice.translate.app-merged_res-44:/drawable-xhdpi_ic_privacy.webp.flat",
         "source": "com.aivoice.translate.app-main-46:/drawable-xhdpi/ic_privacy.webp"
     },
@@ -166,10 +158,6 @@
     {
         "merged": "com.aivoice.translate.app-merged_res-44:/drawable-xhdpi_ic_trans.webp.flat",
         "source": "com.aivoice.translate.app-main-46:/drawable-xhdpi/ic_trans.webp"
-    },
-    {
-        "merged": "com.aivoice.translate.app-merged_res-44:/layout_item_full_ads.xml.flat",
-        "source": "com.aivoice.translate.app-main-46:/layout/item_full_ads.xml"
     },
     {
         "merged": "com.aivoice.translate.app-merged_res-44:/mipmap-hdpi_ic_launcher.png.flat",
@@ -214,10 +202,6 @@
     {
         "merged": "com.aivoice.translate.app-merged_res-44:/mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "com.aivoice.translate.app-main-46:/mipmap-hdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "com.aivoice.translate.app-merged_res-44:/layout_item_small_ads.xml.flat",
-        "source": "com.aivoice.translate.app-main-46:/layout/item_small_ads.xml"
     },
     {
         "merged": "com.aivoice.translate.app-merged_res-44:/layout_activity_intro.xml.flat",

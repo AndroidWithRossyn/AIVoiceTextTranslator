@@ -264,7 +264,6 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <LinearLayout
-                android:id="@+id/native_ads1"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_300dp"
                 android:layout_marginTop="-16dp"

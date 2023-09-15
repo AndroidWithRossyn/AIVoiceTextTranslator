@@ -3137,16 +3137,8 @@ id action_mode_close_button
 id action_text
 id actions
 id activity_chooser_view_content
-id ad_advertiser
-id ad_app_icon
-id ad_body
-id ad_call_to_action
-id ad_headline
 id ad_layout
-id ad_media
-id ad_price
 id ad_stars
-id ad_store
 id add
 id adjust_height
 id adjust_width
@@ -3438,8 +3430,6 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id native_ads
-id native_ads1
-id native_small_ads
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3492,8 +3482,6 @@ id right
 id rightToLeft
 id right_icon
 id right_side
-id rl1
-id rl2
 id rotate_scroll_wheel
 id rounded
 id row_index_key
@@ -3800,10 +3788,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dialog_choose_app
 layout dialog_rate
-layout full_native_ad_param
-layout item_full_ads
 layout item_language
-layout item_small_ads
 layout layout_into1
 layout layout_into2
 layout layout_into3
@@ -3868,7 +3853,6 @@ layout progressbar
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
-layout small_native_ad
 layout support_simple_spinner_dropdown_item
 layout ucrop_activity_photobox
 layout ucrop_aspect_ratio

@@ -30,41 +30,23 @@ public final class ActivityExitBinding implements ViewBinding {
   public final TextView exitetxt;
 
   @NonNull
-  public final LinearLayout nativeAds;
-
-  @NonNull
-  public final LinearLayout nativeAds1;
-
-  @NonNull
   public final TextView no;
 
   @NonNull
   public final TextView rateus;
 
   @NonNull
-  public final RelativeLayout rl1;
-
-  @NonNull
-  public final RelativeLayout rl2;
-
-  @NonNull
   public final TextView yes;
 
   private ActivityExitBinding(@NonNull RelativeLayout rootView,
       @NonNull RelativeLayout bottomlayout, @NonNull LinearLayout btn, @NonNull TextView exitetxt,
-      @NonNull LinearLayout nativeAds, @NonNull LinearLayout nativeAds1, @NonNull TextView no,
-      @NonNull TextView rateus, @NonNull RelativeLayout rl1, @NonNull RelativeLayout rl2,
-      @NonNull TextView yes) {
+      @NonNull TextView no, @NonNull TextView rateus, @NonNull TextView yes) {
     this.rootView = rootView;
     this.bottomlayout = bottomlayout;
     this.btn = btn;
     this.exitetxt = exitetxt;
-    this.nativeAds = nativeAds;
-    this.nativeAds1 = nativeAds1;
     this.no = no;
     this.rateus = rateus;
-    this.rl1 = rl1;
-    this.rl2 = rl2;
     this.yes = yes;
   }
 
@@ -113,18 +95,6 @@ public final class ActivityExitBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.native_ads;
-      LinearLayout nativeAds = ViewBindings.findChildViewById(rootView, id);
-      if (nativeAds == null) {
-        break missingId;
-      }
-
-      id = R.id.native_ads1;
-      LinearLayout nativeAds1 = ViewBindings.findChildViewById(rootView, id);
-      if (nativeAds1 == null) {
-        break missingId;
-      }
-
       id = R.id.no;
       TextView no = ViewBindings.findChildViewById(rootView, id);
       if (no == null) {
@@ -137,26 +107,14 @@ public final class ActivityExitBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.rl1;
-      RelativeLayout rl1 = ViewBindings.findChildViewById(rootView, id);
-      if (rl1 == null) {
-        break missingId;
-      }
-
-      id = R.id.rl2;
-      RelativeLayout rl2 = ViewBindings.findChildViewById(rootView, id);
-      if (rl2 == null) {
-        break missingId;
-      }
-
       id = R.id.yes;
       TextView yes = ViewBindings.findChildViewById(rootView, id);
       if (yes == null) {
         break missingId;
       }
 
-      return new ActivityExitBinding((RelativeLayout) rootView, bottomlayout, btn, exitetxt,
-          nativeAds, nativeAds1, no, rateus, rl1, rl2, yes);
+      return new ActivityExitBinding((RelativeLayout) rootView, bottomlayout, btn, exitetxt, no,
+          rateus, yes);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

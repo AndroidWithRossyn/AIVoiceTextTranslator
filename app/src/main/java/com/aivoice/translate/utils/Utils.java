@@ -32,7 +32,6 @@ import android.widget.Toast;
 
 import androidx.core.content.FileProvider;
 
-import com.aivoice.translate.AdsUtils.FirebaseADHandlers.AdsJsonPOJO;
 import com.aivoice.translate.BuildConfig;
 import com.aivoice.translate.MyApp;
 import com.aivoice.translate.R;
@@ -405,12 +404,7 @@ public class Utils {
             Log.e(key + "*===", "===*" + val);
     }
 
-    public static AdsJsonPOJO getAdsData(String json) {
-        Type familyType = new TypeToken<AdsJsonPOJO>() {
-        }.getType();
-        return new Gson().fromJson(json, familyType);
 
-    }
 
     public void showProgressDialog(Activity activity, String msg) {
         displayProgress(activity);

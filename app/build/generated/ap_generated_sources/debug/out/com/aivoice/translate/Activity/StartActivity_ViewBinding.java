@@ -14,13 +14,13 @@ import java.lang.Override;
 public class StartActivity_ViewBinding implements Unbinder {
   private StartActivity target;
 
-  private View view7f0a0113;
+  private View view7f0a010b;
 
-  private View view7f0a011a;
+  private View view7f0a0112;
 
-  private View view7f0a0118;
+  private View view7f0a0110;
 
-  private View view7f0a0114;
+  private View view7f0a010c;
 
   @UiThread
   public StartActivity_ViewBinding(StartActivity target) {
@@ -33,7 +33,7 @@ public class StartActivity_ViewBinding implements Unbinder {
 
     View view;
     view = Utils.findRequiredView(source, R.id.mIVBack, "method 'onViewClicked'");
-    view7f0a0113 = view;
+    view7f0a010b = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -41,7 +41,7 @@ public class StartActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.mIVVoice, "method 'onViewClicked'");
-    view7f0a011a = view;
+    view7f0a0112 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -49,7 +49,7 @@ public class StartActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.mIVText, "method 'onViewClicked'");
-    view7f0a0118 = view;
+    view7f0a0110 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -57,7 +57,7 @@ public class StartActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.mIVCamera, "method 'onViewClicked'");
-    view7f0a0114 = view;
+    view7f0a010c = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -73,13 +73,13 @@ public class StartActivity_ViewBinding implements Unbinder {
     target = null;
 
 
-    view7f0a0113.setOnClickListener(null);
-    view7f0a0113 = null;
-    view7f0a011a.setOnClickListener(null);
-    view7f0a011a = null;
-    view7f0a0118.setOnClickListener(null);
-    view7f0a0118 = null;
-    view7f0a0114.setOnClickListener(null);
-    view7f0a0114 = null;
+    view7f0a010b.setOnClickListener(null);
+    view7f0a010b = null;
+    view7f0a0112.setOnClickListener(null);
+    view7f0a0112 = null;
+    view7f0a0110.setOnClickListener(null);
+    view7f0a0110 = null;
+    view7f0a010c.setOnClickListener(null);
+    view7f0a010c = null;
   }
 }

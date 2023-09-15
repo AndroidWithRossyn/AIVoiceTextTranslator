@@ -12,9 +12,7 @@ import android.widget.LinearLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.aivoice.translate.AdsUtils.FirebaseADHandlers.AdUtils;
-import com.aivoice.translate.AdsUtils.Interfaces.AppInterfaces;
-import com.aivoice.translate.AdsUtils.Utils.Constants;
+
 import com.aivoice.translate.R;
 import com.aivoice.translate.adpaters.LanguageAdapter;
 import com.aivoice.translate.base.BaseActivity;
@@ -49,8 +47,7 @@ public class LanguageActivity extends BaseActivity {
 
     @Override
     protected void initView(Bundle savedInstanceState) {
-        AdUtils.showNativeAd(LanguageActivity.this, Constants.adsJsonPOJO.getParameters().getNative_id().getDefaultValue().getValue(), (LinearLayout) findViewById(R.id.native_small_ads), false);
-        languageActivity = this;
+       languageActivity = this;
         mList.addAll(Arrays.asList(Languages.getLangsEN()));
         new GetLanguage().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
         mETSearchInput.addTextChangedListener(new TextWatcher() {
@@ -112,12 +109,7 @@ public class LanguageActivity extends BaseActivity {
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.mIVBack:
-                AdUtils.showInterstitialAd(LanguageActivity.this, new AppInterfaces.InterStitialADInterface() {
-                    @Override
-                    public void adLoadState(boolean isLoaded) {
-                        LanguageActivity.super.onBackPressed();
-                    }
-                });
+                LanguageActivity.super.onBackPressed();
                 break;
             case R.id.mIvSearch:
                 break;
@@ -126,11 +118,6 @@ public class LanguageActivity extends BaseActivity {
 
     @Override
     public void onBackPressed() {
-        AdUtils.showInterstitialAd(LanguageActivity.this, new AppInterfaces.InterStitialADInterface() {
-            @Override
-            public void adLoadState(boolean isLoaded) {
-                LanguageActivity.super.onBackPressed();
-            }
-        });
+        LanguageActivity.super.onBackPressed();
     }
 }

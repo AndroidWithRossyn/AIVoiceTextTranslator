@@ -1,30 +1,22 @@
 package com.aivoice.translate.Activity;
 
-import android.Manifest;
+
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.LinearLayout;
 import android.widget.TextView;
-
-import com.aivoice.translate.AdsUtils.FirebaseADHandlers.AdUtils;
-import com.aivoice.translate.AdsUtils.Interfaces.AppInterfaces;
-import com.aivoice.translate.AdsUtils.Utils.Constants;
 import com.aivoice.translate.AdsUtils.Utils.Global;
 import com.aivoice.translate.BuildConfig;
 import com.aivoice.translate.R;
 import com.aivoice.translate.base.BaseActivity;
 import com.aivoice.translate.base.PermitConstant;
 import com.aivoice.translate.dialogs.RateDialog;
-import com.aivoice.translate.utils.Utils;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-
 import static com.aivoice.translate.utils.Utils.getShader;
 
 public class HomeActivity extends BaseActivity {
@@ -38,19 +30,19 @@ public class HomeActivity extends BaseActivity {
 
     @Override
     protected void initView(Bundle savedInstanceState) {
-        AdUtils.showNativeAd(HomeActivity.this, Constants.adsJsonPOJO.getParameters().getNative_id().getDefaultValue().getValue(), (LinearLayout) findViewById(R.id.native_ads), true);
-        mCheckPermission();
+       mCheckPermission();
         mTxtTitle.getPaint().setShader(getShader(mTxtTitle));
     }
+
 
     private void mCheckPermission() {
         String[] permissions;
 
         if (Global.isLatestVersion()) {
-            permissions = new String[]{Manifest.permission.CAMERA, PermitConstant.Manifest_READ_EXTERNAL_STORAGE};
+            permissions = new String[]{PermitConstant.Manifest_CAMERA, PermitConstant.READ_MEDIA_IMAGES,PermitConstant.READ_MEDIA_VIDEOS, PermitConstant.POST_NOTIFICATIONS};
         } else {
-            permissions = new String[]{Manifest.permission.CAMERA, PermitConstant.Manifest_READ_EXTERNAL_STORAGE,
-                    PermitConstant.Manifest_WRITE_EXTERNAL_STORAGE};
+            permissions = new String[]{PermitConstant.Manifest_CAMERA, PermitConstant.Manifest_READ_EXTERNAL_STORAGE,  PermitConstant.Manifest_WRITE_EXTERNAL_STORAGE};
+
         }
         if (!isPermissionsGranted(HomeActivity.this, permissions)) {
             askCompactPermissions(permissions, new PermissionResult() {
@@ -80,12 +72,7 @@ public class HomeActivity extends BaseActivity {
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.mRLStarted:
-                AdUtils.showInterstitialAd(HomeActivity.this, new AppInterfaces.InterStitialADInterface() {
-                    @Override
-                    public void adLoadState(boolean isLoaded) {
-                        startActivity(new Intent(HomeActivity.this, StartActivity.class));
-                    }
-                });
+                startActivity(new Intent(HomeActivity.this, StartActivity.class));
                 break;
             case R.id.mRLShare:
                 mShareApp();
@@ -94,7 +81,7 @@ public class HomeActivity extends BaseActivity {
                 mRateApp();
                 break;
             case R.id.mRLPrivacy:
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://airtechinfotech.blogspot.com/p/privacy-policy.html"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/OmaPrakash"));
                 startActivity(browserIntent);
                 break;
 

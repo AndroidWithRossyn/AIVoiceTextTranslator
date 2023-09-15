@@ -17,17 +17,17 @@ import java.lang.Override;
 public class TextActivity_ViewBinding implements Unbinder {
   private TextActivity target;
 
+  private View view7f0a0123;
+
   private View view7f0a012b;
 
-  private View view7f0a0133;
+  private View view7f0a010d;
 
-  private View view7f0a0115;
+  private View view7f0a010b;
 
-  private View view7f0a0113;
+  private View view7f0a0111;
 
-  private View view7f0a0119;
-
-  private View view7f0a0126;
+  private View view7f0a011e;
 
   @UiThread
   public TextActivity_ViewBinding(TextActivity target) {
@@ -46,7 +46,7 @@ public class TextActivity_ViewBinding implements Unbinder {
     target.mTxtTitle = Utils.findRequiredViewAsType(source, R.id.mTxtTitle, "field 'mTxtTitle'", TextView.class);
     view = Utils.findRequiredView(source, R.id.mTxtFromLang, "field 'mTxtFromLang' and method 'onViewClicked'");
     target.mTxtFromLang = Utils.castView(view, R.id.mTxtFromLang, "field 'mTxtFromLang'", TextView.class);
-    view7f0a012b = view;
+    view7f0a0123 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -56,7 +56,7 @@ public class TextActivity_ViewBinding implements Unbinder {
     target.mTxtInput = Utils.findRequiredViewAsType(source, R.id.mTxtInput, "field 'mTxtInput'", TextView.class);
     view = Utils.findRequiredView(source, R.id.mTxtToLang, "field 'mTxtToLang' and method 'onViewClicked'");
     target.mTxtToLang = Utils.castView(view, R.id.mTxtToLang, "field 'mTxtToLang'", TextView.class);
-    view7f0a0133 = view;
+    view7f0a012b = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -65,7 +65,7 @@ public class TextActivity_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.mIVClear, "field 'mIVClear' and method 'onViewClicked'");
     target.mIVClear = Utils.castView(view, R.id.mIVClear, "field 'mIVClear'", ImageView.class);
-    view7f0a0115 = view;
+    view7f0a010d = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -73,7 +73,7 @@ public class TextActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.mIVBack, "method 'onViewClicked'");
-    view7f0a0113 = view;
+    view7f0a010b = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -81,7 +81,7 @@ public class TextActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.mIVTrans, "method 'onViewClicked'");
-    view7f0a0119 = view;
+    view7f0a0111 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -89,7 +89,7 @@ public class TextActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.mRLTranslate, "method 'onViewClicked'");
-    view7f0a0126 = view;
+    view7f0a011e = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -115,17 +115,17 @@ public class TextActivity_ViewBinding implements Unbinder {
     target.mTxtToLang = null;
     target.mIVClear = null;
 
+    view7f0a0123.setOnClickListener(null);
+    view7f0a0123 = null;
     view7f0a012b.setOnClickListener(null);
     view7f0a012b = null;
-    view7f0a0133.setOnClickListener(null);
-    view7f0a0133 = null;
-    view7f0a0115.setOnClickListener(null);
-    view7f0a0115 = null;
-    view7f0a0113.setOnClickListener(null);
-    view7f0a0113 = null;
-    view7f0a0119.setOnClickListener(null);
-    view7f0a0119 = null;
-    view7f0a0126.setOnClickListener(null);
-    view7f0a0126 = null;
+    view7f0a010d.setOnClickListener(null);
+    view7f0a010d = null;
+    view7f0a010b.setOnClickListener(null);
+    view7f0a010b = null;
+    view7f0a0111.setOnClickListener(null);
+    view7f0a0111 = null;
+    view7f0a011e.setOnClickListener(null);
+    view7f0a011e = null;
   }
 }

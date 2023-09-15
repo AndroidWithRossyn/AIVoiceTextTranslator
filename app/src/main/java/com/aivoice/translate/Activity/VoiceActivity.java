@@ -15,9 +15,7 @@ import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 
-import com.aivoice.translate.AdsUtils.FirebaseADHandlers.AdUtils;
-import com.aivoice.translate.AdsUtils.Interfaces.AppInterfaces;
-import com.aivoice.translate.AdsUtils.Utils.Constants;
+
 import com.aivoice.translate.R;
 import com.aivoice.translate.base.BaseActivity;
 import com.aivoice.translate.translateApi.TranslateApi;
@@ -65,8 +63,7 @@ public class VoiceActivity extends BaseActivity {
 
     @Override
     protected void initView(Bundle savedInstanceState) {
-        AdUtils.showNativeAd(VoiceActivity.this, Constants.adsJsonPOJO.getParameters().getNative_id().getDefaultValue().getValue(), (LinearLayout) findViewById(R.id.native_ads1), true);
-        voiceActivity = this;
+       voiceActivity = this;
         mTxtInput.setText("Click Microphone for recording your voice");
         mTxtInput.setVisibility(View.VISIBLE);
         mETInput.setVisibility(View.GONE);
@@ -74,19 +71,13 @@ public class VoiceActivity extends BaseActivity {
         mIVText.setVisibility(View.GONE);
         mIVClear.setVisibility(View.GONE);
 
-//        AdUtils.showNativeAd(StartActivity.this, Constants.adsJsonPOJO.getParameters().getNative_id().getDefaultValue().getValue(), findViewById(R.id.native_ads), true);
-    }
+ }
 
     @OnClick({R.id.mIVBack, R.id.mIVRecordVoice, R.id.mIVTrans, R.id.mRLTranslate, R.id.mTxtFromLang, R.id.mTxtToLang})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.mIVBack:
-                AdUtils.showInterstitialAd(VoiceActivity.this, new AppInterfaces.InterStitialADInterface() {
-                    @Override
-                    public void adLoadState(boolean isLoaded) {
-                        VoiceActivity.super.onBackPressed();
-                    }
-                });
+                VoiceActivity.super.onBackPressed();
                 break;
             case R.id.mIVRecordVoice:
                 mRecordVoice();
@@ -180,11 +171,6 @@ public class VoiceActivity extends BaseActivity {
 
     @Override
     public void onBackPressed() {
-        AdUtils.showInterstitialAd(VoiceActivity.this, new AppInterfaces.InterStitialADInterface() {
-            @Override
-            public void adLoadState(boolean isLoaded) {
-                VoiceActivity.super.onBackPressed();
-            }
-        });
+        VoiceActivity.super.onBackPressed();
     }
 }

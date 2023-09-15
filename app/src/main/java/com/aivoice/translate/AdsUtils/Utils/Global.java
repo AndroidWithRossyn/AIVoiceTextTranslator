@@ -19,11 +19,10 @@ import android.view.WindowManager;
 
 import androidx.core.content.FileProvider;
 
-import com.aivoice.translate.AdsUtils.FirebaseADHandlers.AdsJsonPOJO;
 import com.aivoice.translate.BuildConfig;
 import com.aivoice.translate.R;
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
+
 
 import java.io.File;
 import java.lang.reflect.Type;
@@ -97,12 +96,7 @@ public class Global {
     }
 
 
-    public static AdsJsonPOJO getAdsData(String json) {
-        Type familyType = new TypeToken<AdsJsonPOJO>() {
-        }.getType();
-        return new Gson().fromJson(json, familyType);
 
-    }
 
     public static long mLastClickTime = 0;
 
@@ -114,7 +108,7 @@ public class Global {
     }
 
     public static boolean isLatestVersion() {
-        return SDK_INT >= Build.VERSION_CODES.R;
+        return SDK_INT >= Build.VERSION_CODES.TIRAMISU;
     }
 
     public static Uri getContentMediaUri() {

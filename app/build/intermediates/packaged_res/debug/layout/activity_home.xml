@@ -60,7 +60,6 @@
                 </RelativeLayout>
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <include layout="@layout/item_full_ads" />
         </RelativeLayout>
 
         <LinearLayout

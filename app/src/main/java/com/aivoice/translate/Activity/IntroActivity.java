@@ -13,8 +13,6 @@ import android.widget.TextView;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
-import com.aivoice.translate.AdsUtils.FirebaseADHandlers.AdUtils;
-import com.aivoice.translate.AdsUtils.Interfaces.AppInterfaces;
 import com.aivoice.translate.R;
 import com.aivoice.translate.base.BaseActivity;
 
@@ -27,7 +25,7 @@ public class IntroActivity extends BaseActivity {
     ViewPager mViewPager;
     @BindView(R.id.mLLTop)
     LinearLayout mLLTop;
-        @BindView(R.id.mTxtSkip)
+    @BindView(R.id.mTxtSkip)
     TextView mTxtSkip;
     @BindView(R.id.mLayoutDots)
     LinearLayout mLayoutDots;
@@ -71,21 +69,11 @@ public class IntroActivity extends BaseActivity {
                     // move to next screen
                     mViewPager.setCurrentItem(current);
                 } else {
-                    AdUtils.showInterstitialAd(IntroActivity.this, new AppInterfaces.InterStitialADInterface() {
-                        @Override
-                        public void adLoadState(boolean isLoaded) {
-                            launchHomeScreen();
-                        }
-                    });
+                    launchHomeScreen();
                 }
                 break;
             case R.id.mTxtSkip:
-                AdUtils.showInterstitialAd(IntroActivity.this, new AppInterfaces.InterStitialADInterface() {
-                    @Override
-                    public void adLoadState(boolean isLoaded) {
-                        launchHomeScreen();
-                    }
-                });
+                launchHomeScreen();
                 break;
         }
     }
@@ -124,9 +112,9 @@ public class IntroActivity extends BaseActivity {
 
         @Override
         public void onPageSelected(int position) {
-            if(position==2){
+            if (position == 2) {
                 mTxtSkip.setVisibility(View.GONE);
-            }else {
+            } else {
                 mTxtSkip.setVisibility(View.VISIBLE);
             }
             addBottomDots(position);

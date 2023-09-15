@@ -61,15 +61,11 @@ public final class ActivityVoiceBinding implements ViewBinding {
   @NonNull
   public final TextView mTxtToLang;
 
-  @NonNull
-  public final LinearLayout nativeAds1;
-
   private ActivityVoiceBinding(@NonNull LinearLayout rootView, @NonNull EditText mETInput,
       @NonNull ImageView mIVBack, @NonNull ImageView mIVClear, @NonNull ImageView mIVRecordVoice,
       @NonNull ImageView mIVText, @NonNull ImageView mIVTrans, @NonNull TextView mRLTranslate,
       @NonNull Toolbar mToolbar, @NonNull TextView mTxtFromLang, @NonNull TextView mTxtInput,
-      @NonNull TextView mTxtResult, @NonNull TextView mTxtTitle, @NonNull TextView mTxtToLang,
-      @NonNull LinearLayout nativeAds1) {
+      @NonNull TextView mTxtResult, @NonNull TextView mTxtTitle, @NonNull TextView mTxtToLang) {
     this.rootView = rootView;
     this.mETInput = mETInput;
     this.mIVBack = mIVBack;
@@ -84,7 +80,6 @@ public final class ActivityVoiceBinding implements ViewBinding {
     this.mTxtResult = mTxtResult;
     this.mTxtTitle = mTxtTitle;
     this.mTxtToLang = mTxtToLang;
-    this.nativeAds1 = nativeAds1;
   }
 
   @Override
@@ -192,15 +187,9 @@ public final class ActivityVoiceBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.native_ads1;
-      LinearLayout nativeAds1 = ViewBindings.findChildViewById(rootView, id);
-      if (nativeAds1 == null) {
-        break missingId;
-      }
-
       return new ActivityVoiceBinding((LinearLayout) rootView, mETInput, mIVBack, mIVClear,
           mIVRecordVoice, mIVText, mIVTrans, mRLTranslate, mToolbar, mTxtFromLang, mTxtInput,
-          mTxtResult, mTxtTitle, mTxtToLang, nativeAds1);
+          mTxtResult, mTxtTitle, mTxtToLang);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

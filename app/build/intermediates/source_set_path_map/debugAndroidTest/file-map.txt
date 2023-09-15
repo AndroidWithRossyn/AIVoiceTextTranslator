@@ -1,7 +1,0 @@
-com.aivoice.translate.test.app-core-1.5.0-0 C:\Users\banro\.gradle\caches\transforms-3\339ed7347c18592e797670dd99e0f98a\transformed\core-1.5.0\res
-com.aivoice.translate.test.app-annotation-experimental-1.3.0-1 C:\Users\banro\.gradle\caches\transforms-3\eb81fb53378604cc0225f33f394c7ec0\transformed\annotation-experimental-1.3.0\res
-com.aivoice.translate.test.app-androidTest-2 G:\AIVoiceTextTranslator\app\build\generated\res\resValues\androidTest\debug
-com.aivoice.translate.test.app-androidTest-3 G:\AIVoiceTextTranslator\app\build\generated\res\rs\androidTest\debug
-com.aivoice.translate.test.app-mergeDebugAndroidTestResources-4 G:\AIVoiceTextTranslator\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.aivoice.translate.test.app-mergeDebugAndroidTestResources-5 G:\AIVoiceTextTranslator\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.aivoice.translate.test.app-merged_res-6 G:\AIVoiceTextTranslator\app\build\intermediates\merged_res\debugAndroidTest

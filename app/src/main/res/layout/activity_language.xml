@@ -92,6 +92,4 @@
         android:layout_marginEnd="@dimen/_24dp"
         android:layout_weight="1" />
 
-    <include layout="@layout/item_small_ads" />
-
 </LinearLayout>

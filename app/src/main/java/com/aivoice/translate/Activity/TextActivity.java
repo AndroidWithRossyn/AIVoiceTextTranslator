@@ -11,9 +11,7 @@ import android.widget.TextView;
 
 import androidx.core.content.ContextCompat;
 
-import com.aivoice.translate.AdsUtils.FirebaseADHandlers.AdUtils;
-import com.aivoice.translate.AdsUtils.Interfaces.AppInterfaces;
-import com.aivoice.translate.AdsUtils.Utils.Constants;
+
 import com.aivoice.translate.R;
 import com.aivoice.translate.base.BaseActivity;
 import com.aivoice.translate.translateApi.TranslateApi;
@@ -59,7 +57,6 @@ public class TextActivity extends BaseActivity {
 
     @Override
     protected void initView(Bundle savedInstanceState) {
-        AdUtils.showNativeAd(TextActivity.this, Constants.adsJsonPOJO.getParameters().getNative_id().getDefaultValue().getValue(), (LinearLayout) findViewById(R.id.native_ads1), true);
 
         textActivity = this;
         mIVRecordVoice.setVisibility(View.GONE);
@@ -78,19 +75,13 @@ public class TextActivity extends BaseActivity {
             mETInput.setVisibility(View.VISIBLE);
             mIVClear.setVisibility(View.VISIBLE);
         }
-//        AdUtils.showNativeAd(StartActivity.this, Constants.adsJsonPOJO.getParameters().getNative_id().getDefaultValue().getValue(), findViewById(R.id.native_ads), true);
-    }
+  }
 
     @OnClick({R.id.mIVBack, R.id.mIVTrans, R.id.mRLTranslate, R.id.mTxtFromLang, R.id.mTxtToLang, R.id.mIVClear})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.mIVBack:
-                AdUtils.showInterstitialAd(TextActivity.this, new AppInterfaces.InterStitialADInterface() {
-                    @Override
-                    public void adLoadState(boolean isLoaded) {
-                        TextActivity.super.onBackPressed();
-                    }
-                });
+                TextActivity.super.onBackPressed();
                 break;
             case R.id.mIVTrans:
                 mTransLanguage();
@@ -175,13 +166,7 @@ public class TextActivity extends BaseActivity {
 
     @Override
     public void onBackPressed() {
-        AdUtils.showInterstitialAd(TextActivity.this, new AppInterfaces.InterStitialADInterface() {
-            @Override
-            public void adLoadState(boolean isLoaded) {
-                Utils.TEXTEXTRACT = "";
-                finish();
-            }
-        });
-
+        Utils.TEXTEXTRACT = "";
+        finish();
     }
 }

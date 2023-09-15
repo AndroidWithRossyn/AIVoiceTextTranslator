@@ -95,6 +95,4 @@
             android:visibility="invisible" />
     </LinearLayout>
 
-    <include layout="@layout/item_small_ads" />
-
 </LinearLayout>
