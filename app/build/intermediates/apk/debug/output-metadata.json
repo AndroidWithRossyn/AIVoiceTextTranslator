@@ -4,17 +4,18 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.aivoice.translate",
+  "applicationId": "com.texttranslate.voiceimage",
   "variantName": "debug",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 2,
-      "versionName": "1.1",
+      "versionCode": 1,
+      "versionName": "1.0.0",
       "outputFile": "app-debug.apk"
     }
   ],
-  "elementType": "File"
+  "elementType": "File",
+  "minSdkVersionForDexing": 24
 }

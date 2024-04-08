@@ -1,22 +1,30 @@
 <resources>
-    <string name="app_name"><![CDATA[AI Voice & Text Translator]]></string>
+    <string name="app_name"><![CDATA[Voice & Text Translator]]></string>
+
     <string name="skip">Skip</string>
     <string name="next">Next</string>
-    <string name="intro1">Translate in real time in over \n1000+ languages</string>
+
+    <string name="intro1">Translate in real time in over \n100+ languages</string>
+
     <string name="intro2">Simply speak into your phone\nto translate your words into\nany desired language</string>
     <string name="intro3">Click a picture of the text to\ntranslate into your desired\nlanguage</string>
+
     <string name="get_start">Get start</string>
     <string name="share">Share</string>
     <string name="voice_trans">Voice Translator</string>
+
     <string name="voiceInfo">1. Record your voice\n\n2. Choose language\n\n3. Click on translate button</string>
     <string name="textInfo">1. Enter the text\n\n2. Choose language\n\n3. Click on translate button</string>
+
     <string name="language">Language Select</string>
     <string name="text_tran">Text Translator</string>
+
     <string name="camera">Camera</string>
     <string name="rate_us">Rate us</string>
     <string name="privacy">Privacy Policy</string>
     <string name="translate">Translator</string>
     <string name="rationale_title">Permission required</string>
+
     <string name="rationale_message">we need permission for read-write <b>storage</b> and your <b>camera</b></string>
     <string name="rationale_message_voice">we need permission for record your voice</string>
 

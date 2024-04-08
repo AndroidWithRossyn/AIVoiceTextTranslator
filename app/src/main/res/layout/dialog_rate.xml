@@ -12,7 +12,7 @@
         android:layout_marginTop="@dimen/_16dp"
         android:layout_marginEnd="@dimen/_14dp"
         android:layout_marginBottom="@dimen/_2dp"
-        android:background="#A26DD6"
+        android:background="@drawable/bg_gradiant"
         android:orientation="vertical">
 
         <TextView

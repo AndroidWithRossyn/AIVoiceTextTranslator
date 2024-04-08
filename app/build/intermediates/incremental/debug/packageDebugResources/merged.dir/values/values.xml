@@ -103,22 +103,15 @@
     <dimen name="lib_sb_stroke_width_thumb_view">1px</dimen>
     <dimen name="thumbnail">10dp</dimen>
     <dimen name="thumbnail_size">80dp</dimen>
-    <string name="app_name"><![CDATA[AI Voice & Text Translator]]></string>
+    <string name="app_name"><![CDATA[Voice & Text Translator]]></string>
     <string name="camera">Camera</string>
-    <string name="default_web_client_id" translatable="false">562066334586-8j7d6ma88sd1ur5th1jso42nc38b1h4b.apps.googleusercontent.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">562066334586</string>
     <string name="get_start">Get start</string>
-    <string name="google_api_key" translatable="false">AIzaSyDTTPPSw-wzVsV5eTd_g9zIt7Q79QzXRWM</string>
-    <string name="google_app_id" translatable="false">1:562066334586:android:3c0822b7e89a1ae9422cc3</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDTTPPSw-wzVsV5eTd_g9zIt7Q79QzXRWM</string>
-    <string name="google_storage_bucket" translatable="false">aivoicetexttranslator.appspot.com</string>
-    <string name="intro1">Translate in real time in over \n1000+ languages</string>
+    <string name="intro1">Translate in real time in over \n100+ languages</string>
     <string name="intro2">Simply speak into your phone\nto translate your words into\nany desired language</string>
     <string name="intro3">Click a picture of the text to\ntranslate into your desired\nlanguage</string>
     <string name="language">Language Select</string>
     <string name="next">Next</string>
     <string name="privacy">Privacy Policy</string>
-    <string name="project_id" translatable="false">aivoicetexttranslator</string>
     <string name="rate_us">Rate us</string>
     <string name="rationale_message">we need permission for read-write <b>storage</b> and your <b>camera</b></string>
     <string name="rationale_message_voice">we need permission for record your voice</string>
@@ -131,11 +124,14 @@
     <string name="voiceInfo">1. Record your voice\n\n2. Choose language\n\n3. Click on translate button</string>
     <string name="voice_trans">Voice Translator</string>
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorAccent">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimary</item>
+
         <item name="android:windowLightStatusBar" ns1:ignore="NewApi">true</item>
         <item name="android:statusBarColor">@color/white</item>
+
     </style>
     <style name="RatingBar" parent="Theme.AppCompat">
         <item name="colorControlNormal">@color/white</item>

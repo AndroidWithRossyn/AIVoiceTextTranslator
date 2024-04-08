@@ -1,0 +1,11 @@
+## 08-04-2024
+- Client Kartik Shekhaliay 
+- version 1.0.0
+- code in kotlin
+- texttranslate alias or password same
+- package name change
+- view binding added
+- logo change
+- svg vector added
+- layout improved
+- butter knife removed.

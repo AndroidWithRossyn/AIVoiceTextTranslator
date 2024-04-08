@@ -111,7 +111,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 app:cardBackgroundColor="@color/colorPrimary"
-                                app:cardCornerRadius="@dimen/_20dp">
+                                app:cardCornerRadius="@dimen/_25dp">
 
                                 <TextView
                                     android:id="@+id/mTxtFromLang"
@@ -226,7 +226,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 app:cardBackgroundColor="@color/colorPrimary"
-                                app:cardCornerRadius="@dimen/_20dp">
+                                app:cardCornerRadius="@dimen/_25dp">
 
                                 <TextView
                                     android:id="@+id/mTxtToLang"
@@ -284,7 +284,7 @@
                 app:cardBackgroundColor="@color/colorPrimary"
                 app:cardCornerRadius="@dimen/_8dp">
 
-                <TextView
+                <Button
                     android:id="@+id/mRLTranslate"
                     android:layout_width="wrap_content"
                     android:layout_height="45dp"

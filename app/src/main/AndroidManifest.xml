@@ -1,53 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.aivoice.translate">
-
-    <uses-feature
-        android:name="android.hardware.camera"
-        android:required="true" />
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
 
-    <uses-permission
-        android:name="android.permission.READ_EXTERNAL_STORAGE"
-        android:maxSdkVersion="32" />
-    <uses-permission
-        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        android:maxSdkVersion="29" />
-    <uses-permission
-        android:name="android.permission.READ_MEDIA_IMAGES"
-        android:minSdkVersion="33" />
-    <uses-permission
-        android:name="android.permission.READ_MEDIA_VIDEO"
-        android:minSdkVersion="33" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="29" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" android:minSdkVersion="33" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" android:minSdkVersion="33" />
+
+    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED" />
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
     <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
 
 
     <application
-        android:name="com.aivoice.translate.MyApp"
-        android:allowBackup="false"
+        android:name="com.texttranslate.voiceimage.MyApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:largeHeap="true"
-        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:largeHeap="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme"
-        android:usesCleartextTraffic="true">
+        tools:targetApi="31">
+
+
         <activity
-            android:name=".Activity.ExitActivity"
+            android:name=".ExitActivity"
             android:exported="false" />
         <activity
-            android:name=".Activity.SplashActivity"
+            android:name=".SplashActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -57,33 +56,32 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activity.IntroActivity"
+            android:name=".IntroActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activity.HomeActivity"
+            android:name=".HomeActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activity.StartActivity"
+            android:name=".StartActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activity.VoiceActivity"
+            android:name=".VoiceActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".TextActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activity.LanguageActivity"
+            android:name=".CameraActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
-        <activity
-            android:name=".Activity.TextActivity"
-            android:exported="false"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Activity.CameraActivity"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+
+
 
         <provider
             android:name="androidx.core.content.FileProvider"
@@ -94,17 +92,6 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/provider_paths" />
         </provider>
-
-
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713" />
-        <meta-data
-            android:name="com.google.firebase.messaging.default_notification_icon"
-            android:resource="@mipmap/ic_launcher" />
-        <meta-data
-            android:name="com.google.firebase.messaging.default_notification_color"
-            android:resource="@color/colorPrimary" />
 
         <uses-library
             android:name="org.apache.http.legacy"

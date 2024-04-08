@@ -20,14 +20,15 @@
 
             <ImageView
                 android:id="@+id/mIVBack"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_gravity="center_vertical"
-                android:background="?attr/actionBarItemBackground"
+                android:layout_marginStart="@dimen/_5dp"
                 android:clickable="true"
                 android:focusable="true"
-                android:padding="@dimen/_16dp"
-                android:src="@drawable/ic_back" />
+                android:src="@drawable/close_round"
+                android:background="?attr/actionBarItemBackground"
+                app:tint="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -86,10 +87,9 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/mRecyclerView"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginStart="@dimen/_24dp"
-        android:layout_marginEnd="@dimen/_24dp"
+        android:layout_marginHorizontal="@dimen/_20dp"
         android:layout_weight="1" />
 
 </LinearLayout>
