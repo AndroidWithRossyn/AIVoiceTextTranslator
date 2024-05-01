@@ -12,12 +12,14 @@
     <string name="get_start">Get start</string>
     <string name="share">Share</string>
     <string name="voice_trans">Voice Translator</string>
+    <string name="voice">Voice</string>
 
     <string name="voiceInfo">1. Record your voice\n\n2. Choose language\n\n3. Click on translate button</string>
     <string name="textInfo">1. Enter the text\n\n2. Choose language\n\n3. Click on translate button</string>
 
     <string name="language">Language Select</string>
     <string name="text_tran">Text Translator</string>
+    <string name="text">Text</string>
 
     <string name="camera">Camera</string>
     <string name="rate_us">Rate us</string>

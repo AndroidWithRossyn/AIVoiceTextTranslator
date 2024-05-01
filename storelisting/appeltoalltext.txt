@@ -1,0 +1,15 @@
+Greetings respected Developer Team,
+This All Text Translator App is a comprehensive language translation application.
+it is empowers users to bridge the communication divide with ease.
+
+Our app Provides these Features:
+1) Text Translation: The facility to translate text is provided in this app. This app simply supports 100+ languages ​​and can easily translate to any language. The user can copy and paste this text or type it and input it into the app. By clicking on the translate button, you can increase the ability to understand with your desired language.
+2) Voice Translation: Instead of typing in it, users can also give input through their voice and can translate it into any language.
+3) Image Text Recognition: Image Text Recognition is a on hand feature that allows users to extract text from snap shots. For this the user will simply have to capture an image from this app or select any image from the gallery. In both the methods, all types of text will be automatically superimposed on the image using the code entered in the app or for convenience, user can read it in your favorite language.
+
+I know that Google publishes only useful apps, We are aware of this and will keep updating the app in the future keeping this in mind.
+
+Sincerely,
+The All Text Translator App Team
+
+For better information, we have also added a recorded video of the app which shows how useful the app is in its true sense.

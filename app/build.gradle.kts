@@ -9,7 +9,7 @@ android {
     signingConfigs {
         getByName("debug") {
             storeFile =
-                file("E:\\Android with Rossyn\\AIVoiceTextTranslator2\\keystore\\texttranslate.jks")
+                file("E:\\Android with Rossyn\\AIVoiceTextTranslator\\keystore\\texttranslate.jks")
             storePassword = "texttranslate"
             keyAlias = "texttranslate"
             keyPassword = "texttranslate"
@@ -24,8 +24,8 @@ android {
         applicationId = "com.texttranslate.voiceimage"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 3
+        versionName = "1.0.3"
         vectorDrawables.useSupportLibrary = true
         renderscriptTargetApi = 24
         renderscriptSupportModeEnabled = true
@@ -89,6 +89,13 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+
+    implementation (libs.sdp.android)
+    implementation(libs.ssp.android)
+
+    //circle image view
+    implementation(libs.circleimageview)
 
     implementation("com.google.android.gms:play-services-vision:20.1.3")
 

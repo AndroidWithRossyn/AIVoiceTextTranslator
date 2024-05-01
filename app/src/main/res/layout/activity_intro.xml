@@ -28,7 +28,7 @@
                     android:id="@+id/mTxtSkip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/_20dp"
+                    android:padding="@dimen/_18ssp"
                     android:layout_alignParentEnd="true"
                     android:textAllCaps="false"
                     android:text="@string/skip"
@@ -47,19 +47,19 @@
                 android:id="@+id/mViewPager"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_marginTop="@dimen/_100dp"
+                android:layout_marginTop="@dimen/_80sdp"
                 android:layout_weight="1" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/_30dp"
+                android:layout_marginBottom="@dimen/_28sdp"
                 android:gravity="center">
 
                 <LinearLayout
                     android:id="@+id/mLayoutDots"
                     android:layout_width="wrap_content"
-                    android:layout_height="@dimen/_30dp"
+                    android:layout_height="@dimen/_28sdp"
                     android:layout_centerInParent="true"
                     android:gravity="center_horizontal"
                     android:orientation="horizontal" />
@@ -68,15 +68,15 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/_50dp">
+                android:layout_marginBottom="@dimen/_48sdp">
 
                 <com.google.android.material.card.MaterialCardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="@dimen/_10dp"
+                    android:layout_marginTop="@dimen/_9sdp"
                     app:cardBackgroundColor="@color/colorPrimary"
-                    app:cardCornerRadius="@dimen/_8dp">
+                    app:cardCornerRadius="@dimen/_7sdp">
 
                     <TextView
                         android:id="@+id/mTxtNext"
@@ -85,8 +85,8 @@
                         android:layout_centerInParent="true"
                         android:layout_gravity="center_horizontal"
                         android:gravity="center"
-                        android:paddingStart="@dimen/_80dp"
-                        android:paddingEnd="@dimen/_80dp"
+                        android:paddingStart="@dimen/_75sdp"
+                        android:paddingEnd="@dimen/_75sdp"
                         android:text="@string/next"
                         android:textAppearance="@style/TextAppearance.MyApp.Body1"
                         android:textColor="@color/white" />

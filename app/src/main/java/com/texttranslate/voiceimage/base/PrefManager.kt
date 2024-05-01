@@ -3,7 +3,7 @@ package com.texttranslate.voiceimage.base
 import android.content.Context
 import android.content.SharedPreferences
 
-class PrefManager(var _context: Context) {
+class PrefManager(_context: Context) {
 
     var pref: SharedPreferences = _context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE)
     var editor: SharedPreferences.Editor = pref.edit()

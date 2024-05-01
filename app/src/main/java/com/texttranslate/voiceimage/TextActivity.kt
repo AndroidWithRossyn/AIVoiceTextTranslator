@@ -16,6 +16,7 @@ class TextActivity : PermissionHelperActivity(), View.OnClickListener, OnItemCli
     var IsFrom = true
     var textActivity: TextActivity? = null
     private var binding: ActivityVoiceBinding? = null
+    private var receivedText: String? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityVoiceBinding.inflate(
@@ -26,9 +27,13 @@ class TextActivity : PermissionHelperActivity(), View.OnClickListener, OnItemCli
         binding!!.mIVRecordVoice.setVisibility(View.GONE)
         binding!!.mIVText.setVisibility(View.VISIBLE)
         binding!!.mTxtTitle.text = "" + getResources().getText(R.string.text_tran)
-        if (!Utils.isEmptyStr(Utils.TEXTEXTRACT)) {
+
+
+        receivedText = intent.getStringExtra("text")
+
+        if (!Utils.isEmptyStr(receivedText)) {
             binding!!.mTxtResult.text = ""
-            binding!!.mTxtInput.text = "" + Utils.TEXTEXTRACT
+            binding!!.mTxtInput.text = "" + receivedText
             //            mETInput.setSelection(mETInput.getText().length());
             binding!!.mTxtInput.visibility = View.VISIBLE
             binding!!.mETInput.visibility = View.GONE
@@ -83,8 +88,7 @@ class TextActivity : PermissionHelperActivity(), View.OnClickListener, OnItemCli
 
     private fun mTranslateText() {
         Utils.hideKeyboard(binding!!.mETInput)
-        val input: String
-        input = if (!Utils.isEmptyStr(Utils.TEXTEXTRACT)) {
+        val input: String = if (!Utils.isEmptyStr(receivedText)) {
             binding!!.mTxtInput.getText().toString()
         } else {
             binding!!.mETInput.getText().toString()
@@ -120,12 +124,11 @@ class TextActivity : PermissionHelperActivity(), View.OnClickListener, OnItemCli
 
     override fun onDestroy() {
         super.onDestroy()
-        Utils.TEXTEXTRACT = ""
+
     }
 
     override fun onBackPressed() {
         super.onBackPressed()
-        Utils.TEXTEXTRACT = ""
         finish()
     }
 }

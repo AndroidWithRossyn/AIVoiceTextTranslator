@@ -27,10 +27,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="@dimen/_10dp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:gravity="center"
             android:text="@string/app_name"
             android:textAppearance="@style/TextAppearance.MyApp.Headline6"
-            android:textColor="@color/white" />
+            android:textColor="@color/colorPrimary" />
     </LinearLayout>
 </RelativeLayout>

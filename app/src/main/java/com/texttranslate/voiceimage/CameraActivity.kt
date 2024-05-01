@@ -6,7 +6,6 @@ import android.content.pm.PackageManager
 import android.graphics.drawable.BitmapDrawable
 import android.os.Build
 import android.os.Bundle
-import android.util.Log
 import android.view.SurfaceHolder
 import android.view.View
 import android.widget.ImageView
@@ -38,76 +37,77 @@ class CameraActivity : PermissionHelperActivity(), View.OnClickListener {
             layoutInflater
         )
         setContentView(binding!!.getRoot())
-        val textRecognizer = TextRecognizer.Builder(applicationContext).build()
-        if (!textRecognizer.isOperational) {
-            Log.w("MainActivity", "Detector dependencies are not yet available")
-        } else {
-            cameraSource = CameraSource.Builder(applicationContext, textRecognizer)
-                .setFacing(CameraSource.CAMERA_FACING_BACK)
-                .setRequestedPreviewSize(1280, 1024)
-                .setRequestedFps(2.0f)
-                .setAutoFocusEnabled(true)
-                .build()
-            binding!!.surfaceView.holder.addCallback(object : SurfaceHolder.Callback {
-                override fun surfaceCreated(holder: SurfaceHolder) {
-                    try {
-                        if (ActivityCompat.checkSelfPermission(
-                                applicationContext,
-                                Manifest.permission.CAMERA
-                            ) != PackageManager.PERMISSION_GRANTED
-                        ) {
-                            ActivityCompat.requestPermissions(
-                                this@CameraActivity, arrayOf(Manifest.permission.CAMERA),
-                                22
-                            )
-                            return
-                        }
-                        cameraSource!!.start(binding!!.surfaceView.holder)
-                    } catch (e: IOException) {
-                        e.printStackTrace()
+        val textRecognizer = TextRecognizer.Builder(this).build()
+//        if (!textRecognizer.isOperational) {
+//            Log.w("MainActivity", "Detector dependencies are not yet available")
+//        } else {
+        cameraSource = CameraSource.Builder(this, textRecognizer)
+            .setFacing(CameraSource.CAMERA_FACING_BACK)
+            .setRequestedPreviewSize(1280, 1024)
+            .setRequestedFps(2.0f)
+            .setAutoFocusEnabled(true)
+            .build()
+        binding!!.surfaceView.holder.addCallback(object : SurfaceHolder.Callback {
+            override fun surfaceCreated(holder: SurfaceHolder) {
+                try {
+                    if (ActivityCompat.checkSelfPermission(
+                            this@CameraActivity,
+                            Manifest.permission.CAMERA
+                        ) != PackageManager.PERMISSION_GRANTED
+                    ) {
+                        ActivityCompat.requestPermissions(
+                            this@CameraActivity, arrayOf(Manifest.permission.CAMERA),
+                            22
+                        )
+                        return
+                    }
+                    cameraSource!!.start(binding!!.surfaceView.holder)
+                } catch (e: IOException) {
+                    e.printStackTrace()
+                }
+            }
+
+            override fun surfaceChanged(
+                holder: SurfaceHolder,
+                format: Int,
+                width: Int,
+                height: Int
+            ) {
+            }
+
+            override fun surfaceDestroyed(holder: SurfaceHolder) {
+                cameraSource!!.stop()
+            }
+        })
+        textRecognizer.setProcessor(object : Detector.Processor<TextBlock> {
+            override fun release() {}
+            override fun receiveDetections(detections: Detections<TextBlock>) {
+                val items = detections.detectedItems
+                if (items.size() != 0) {
+                    val stringBuilder = StringBuilder()
+                    for (i in 0 until items.size()) {
+                        val item = items.valueAt(i)
+                        stringBuilder.append(item.value)
+                        stringBuilder.append("\n")
+                        mText = stringBuilder.toString()
                     }
                 }
+            }
+        })
 
-                override fun surfaceChanged(
-                    holder: SurfaceHolder,
-                    format: Int,
-                    width: Int,
-                    height: Int
-                ) {
-                }
-
-                override fun surfaceDestroyed(holder: SurfaceHolder) {
-                    cameraSource!!.stop()
-                }
-            })
-            textRecognizer.setProcessor(object : Detector.Processor<TextBlock> {
-                override fun release() {}
-                override fun receiveDetections(detections: Detections<TextBlock>) {
-                    val items = detections.detectedItems
-                    if (items.size() != 0) {
-                        val stringBuilder = StringBuilder()
-                        for (i in 0 until items.size()) {
-                            val item = items.valueAt(i)
-                            stringBuilder.append(item.value)
-                            stringBuilder.append("\n")
-                            mText = stringBuilder.toString()
-                        }
-                    }
-                }
-            })
-        }
         binding!!.mIVCamera.setOnClickListener(this)
         binding!!.mIVGallery.setOnClickListener(this)
         binding!!.mIVBack.setOnClickListener(this)
     }
+
+    private var sendText: String? = null
 
     @RequiresApi(Build.VERSION_CODES.TIRAMISU)
     override fun onClick(v: View) {
         if (v === binding!!.mIVBack) {
             super@CameraActivity.finish()
         } else if (v === binding!!.mIVGallery) {
-            val permissions: Array<String>
-            permissions = if (isLatestVersion) {
+            val permissions: Array<String> = if (isLatestVersion) {
                 arrayOf(
                     PermitConstant.Manifest_CAMERA,
                     PermitConstant.READ_MEDIA_IMAGES,
@@ -138,9 +138,11 @@ class CameraActivity : PermissionHelperActivity(), View.OnClickListener {
                 }
             })
         } else if (v === binding!!.mIVCamera) {
-            Utils.TEXTEXTRACT = mText!!
-            if (!Utils.isEmptyStr(Utils.TEXTEXTRACT)) {
-                startActivity(Intent(this@CameraActivity, TextActivity::class.java))
+            sendText = mText
+            if (!Utils.isEmptyStr(sendText)) {
+                val intent = Intent(this@CameraActivity, TextActivity::class.java)
+                intent.putExtra("text", sendText)
+                startActivity(intent)
                 finish()
             } else {
                 Toast.makeText(this, "There is no Data..!", Toast.LENGTH_SHORT).show()
@@ -184,27 +186,26 @@ class CameraActivity : PermissionHelperActivity(), View.OnClickListener {
             val bitmapDrawable = mPreviewIv.getDrawable() as BitmapDrawable
             val bitmap = bitmapDrawable.bitmap
             val recognizer = TextRecognizer.Builder(applicationContext).build()
-            if (!recognizer.isOperational) {
-                Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show()
-            } else {
-                val frame = Frame.Builder().setBitmap(bitmap).build()
-                val items = recognizer.detect(frame)
-                val sb = StringBuilder()
-                //get text from sb until there is no text
-                for (i in 0 until items.size()) {
-                    val myItem = items.valueAt(i)
-                    sb.append(myItem.value)
-                    sb.append("\n")
-                }
-                Utils.dismissProgress()
-                Utils.TEXTEXTRACT = sb.toString()
-                if (!Utils.isEmptyStr(Utils.TEXTEXTRACT)) {
-                    startActivity(Intent(this@CameraActivity, TextActivity::class.java))
-                    finish()
-                } else {
-                    Toast.makeText(this, "There is no Data..!", Toast.LENGTH_SHORT).show()
-                }
+            val frame = Frame.Builder().setBitmap(bitmap).build()
+            val items = recognizer.detect(frame)
+            val sb = StringBuilder()
+            //get text from sb until there is no text
+            for (i in 0 until items.size()) {
+                val myItem = items.valueAt(i)
+                sb.append(myItem.value)
+                sb.append("\n")
             }
+            Utils.dismissProgress()
+            sendText = sb.toString()
+            if (!Utils.isEmptyStr(sendText)) {
+                val intent = Intent(this@CameraActivity, TextActivity::class.java)
+                intent.putExtra("text", sendText)
+                startActivity(intent)
+                finish()
+            } else {
+                Toast.makeText(this, "There is no Data..!", Toast.LENGTH_SHORT).show()
+            }
+
         } else {
             Utils.dismissProgress()
         }

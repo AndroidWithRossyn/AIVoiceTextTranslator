@@ -1,837 +1,834 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:86:9-94:20
+INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:80:9-88:20
 	android:grantUriPermissions
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:90:13-47
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:84:13-47
 	android:authorities
-		INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:88:13-60
+		INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:82:13-60
 	android:exported
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:89:13-37
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:83:13-37
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:87:13-62
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:81:13-62
 manifest
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:2:1-101:12
-INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:2:1-101:12
-INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:2:1-101:12
-INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:2:1-101:12
-MERGED from [androidx.databinding:viewbinding:8.3.1] C:\Users\Reyuna\.gradle\caches\transforms-3\85c4b17cdda42de890a348c87c96711c\transformed\viewbinding-8.3.1\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.material:material:1.11.0] C:\Users\Reyuna\.gradle\caches\transforms-3\f1d24cf2f48aa6223c8587635b3427e4\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:17:1-145:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Reyuna\.gradle\caches\transforms-3\065da4b1685deac48eb1d58812fa7243\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
-MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:2:1-42:12
-MERGED from [io.github.ParkSangGwon:tedpermission-normal:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\575d8e8577603461ec3bb2385417795c\transformed\tedpermission-normal-3.3.0\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\6ffee904c57aaaf9be4244e794abf68f\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.yalantis:ucrop:2.2.6] C:\Users\Reyuna\.gradle\caches\transforms-3\4189a716d59c0caa70b941caf31e2aef\transformed\ucrop-2.2.6\AndroidManifest.xml:2:1-11:12
-MERGED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\609c551425f8dc9225e48429005913c5\transformed\tedpermission-3.3.0\AndroidManifest.xml:2:1-22:12
-MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\ea636195546b5160d5f819847f9d22d9\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\07b4e4531adf6b1d2ab5d866e8136c91\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-vision:20.1.3] C:\Users\Reyuna\.gradle\caches\transforms-3\01a144c6a3a7462553bccd6148683d68\transformed\play-services-vision-20.1.3\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] C:\Users\Reyuna\.gradle\caches\transforms-3\f17ca303cdc4de01082f7457481cc9ae\transformed\play-services-vision-common-19.1.3\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0066e6b198cdb4e568f0e92f3db651d3\transformed\play-services-clearcut-17.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\507e1255ae92cc8263b6fb33780c114e\transformed\play-services-flags-17.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\a8a21cdd922945c5e734352f0d1e719a\transformed\play-services-phenotype-17.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\1cb8b9ad79d604d548262f8b8144836e\transformed\play-services-base-17.4.0\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\ad3c951aa547e58bbac898b9b5e28c0b\transformed\play-services-tasks-17.2.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6f72759ead8af5a7e2652495f1a68791\transformed\play-services-basement-17.4.0\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Reyuna\.gradle\caches\transforms-3\9306d6197e8e3184379a1a297903b958\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.8.0] C:\Users\Reyuna\.gradle\caches\transforms-3\889cd5719c0c16714974f0410abba1fc\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\f8dd1a78ff1312057300f45bba37c357\transformed\core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\490a55b8099e72397bf775107dcf9c9a\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\31aa0d4c9f2adf1a7768cf5a905e84e4\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\f70d921f0ca1edb35a89d9052c7c1438\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\d95ab8ae0a03d2a5928c01e2a8c6a2f6\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\9e6c43e8e28e7511673d4e51158ea17c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\1b69bf7b13fd6bef35642c0029448567\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\7d4070e9dc395425cd1d1003178c4464\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\d6e6abc5e35c9e0a9fba1a0b5f4ad3c5\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\848ac37bd8a5fa930aafbad6e72b8793\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\8d6a4c1e154927e621fdc4dc8a60f9f3\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\4dd47dcbdc6e6a9069263e9bcf4598b5\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c4264adb8cd8a17c390bf3dae7fd15b6\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\5f83a28425ea303bc904c11e930e0e7b\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\30588fb3712cf35964020c8599af4864\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\d1cfa3d671e619e55ce50bdf9a1f6c16\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-service:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\7a9a601499e759e9a6e26000c4c96eaf\transformed\lifecycle-service-2.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\79c5bffb82ddcef7b3814d03276f1b2f\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\18fbfbd4dae3fa5e6d2484da11cd08a8\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\04b90fa7d60fbc8fcc919d47e27c86d0\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\cfa5ae46b4078dc43b20a499a34b98bf\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\94e2380e322f3b71be711352197fc14b\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\5934093d5f5d1cac804fa63aaa01abc3\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.room:room-ktx:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\a734acf40bec87684cc963f549ed6dfe\transformed\room-ktx-2.5.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c677cc611d576dc3dd5754a9233a70e0\transformed\room-runtime-2.5.0\AndroidManifest.xml:17:1-31:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\9541f16cc60b778b286d4526710f8863\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\573e84ca6d1279ce8005a95ad8dfc277\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\68f758e99def1a19e18613292ec42b59\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\1fdc8476956cf742906e4739ab5052b1\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Reyuna\.gradle\caches\transforms-3\b52b9304d6b8fdb75e68e5621ad957c7\transformed\exifinterface-1.3.2\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.documentfile:documentfile:1.0.1] C:\Users\Reyuna\.gradle\caches\transforms-3\752c683c7799c3968cdb8658d291ce90\transformed\documentfile-1.0.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.sqlite:sqlite-framework:2.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c002dbc9b82e8e606d81d31424074407\transformed\sqlite-framework-2.3.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\ea13cb0c09230ada40fdcd747612abf5\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\d1f41eebff16138cf3d86a358bdb562c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6be25a2adf5d53e5e72dfcb7a9f05f24\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.sqlite:sqlite:2.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\5b0794dea2352ff3100f9980dba5d6d2\transformed\sqlite-2.3.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\e1cb2a1a2df34273a19bc72c18a5e47b\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\4bff6de3e4ccdb539876f3ca4414ddb9\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\9e26874e1b5997f7fcb5e66ff106b8ed\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:2:1-95:12
+INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:2:1-95:12
+INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:2:1-95:12
+INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:2:1-95:12
+MERGED from [androidx.databinding:viewbinding:8.3.1] C:\Users\Reyuna\.gradle\caches\transforms-3\029af561bb68201df26baa360003daa7\transformed\viewbinding-8.3.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\Reyuna\.gradle\caches\transforms-3\1ee976b8d29de602efa96e4b5aebc38e\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Reyuna\.gradle\caches\transforms-3\f609120d346f91ea8cb44dfd720e0a80\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:2:1-42:12
+MERGED from [io.github.ParkSangGwon:tedpermission-normal:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\36a8ebdebac18450d4988a0ea8f379ad\transformed\tedpermission-normal-3.3.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\12deab7fa0f3a6a241a9848e2908c0cd\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.yalantis:ucrop:2.2.6] C:\Users\Reyuna\.gradle\caches\transforms-3\e824fc4ff80fe7ae005688ba5c3f6b87\transformed\ucrop-2.2.6\AndroidManifest.xml:2:1-11:12
+MERGED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6dc3ee1ac70bc82d6c3f56ae2704eb84\transformed\tedpermission-3.3.0\AndroidManifest.xml:2:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\8ee9b4d5b409e51c5c35acc885bf36f4\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\ec18c851223944462b3b550b4204306e\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] C:\Users\Reyuna\.gradle\caches\transforms-3\7c2bfda41b696b2ee6ea86b9056cb6fe\transformed\play-services-vision-20.1.3\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] C:\Users\Reyuna\.gradle\caches\transforms-3\b7a4c6e85c6435e8ee68e9ffc95c45eb\transformed\play-services-vision-common-19.1.3\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\cbd90e798c962fb5927233b93dc4a03b\transformed\play-services-clearcut-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\15bd97549195f8da015b43aab64495cf\transformed\play-services-flags-17.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0808b43aa97efe1e03a4aa8e480d418e\transformed\play-services-phenotype-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0e831b47c50453ca2aec6b793e1c8922\transformed\play-services-base-17.4.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0b856b3c5159438f00d6a5f311ed4469\transformed\play-services-tasks-17.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\e42e1bb9e0d1c3b7d554abd68979c4ac\transformed\play-services-basement-17.4.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Reyuna\.gradle\caches\transforms-3\17b0bd327b5af3ff26948865f24d0d2d\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\Reyuna\.gradle\caches\transforms-3\d9d40fab27329cf85d8e100e8eb36e48\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\774b0e9393131faabb113176f48ac08d\transformed\core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c94dd1437730eeec8772ecc2f586539b\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\2c3b847d797855cf5eed4423951e521b\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\3e8db6be7fed43d2ba038c8aca59f37e\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0152820fd3ad19286f7c75d3f74ffc1f\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\2a9961ed5b667774f532c6dc66e5e04f\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\f75b6fff707284ffb2baa9d958c294b2\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\1feac704cb0d77056a7aa4c9ec7c8a19\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c140a24037fd1def3499d78eba0ae981\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\2a353e5049c5d27fb3345d150cc12ca3\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\884afff07c4f3b8e5a720d9e4b89c992\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\2a6af8085e5d85825a7970fdd568b6aa\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c4d92fc05e8d3ae97b34e31b9176e62c\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\8d8f3af5ca31bf4b3296574dbe2ac645\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\79ff6a56eb2101ee36dc451aef4a04b7\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\c174e3f84a2c10954a75d81c0068fd97\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\5cac9cd046dea9d21a3fdfe75d86a409\transformed\lifecycle-service-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\eb8e6a0d492d640ee859bec71f58d1af\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\4bf9120e980f088a3fbe9f8db257b51c\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\23526b5b41c3503da907cb6da434ac68\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\6e817363e6a9cc7459c60bb357e2bae0\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\ccdc0691c861c2a24e7a155242aa123e\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\795f6b87fad46b3995cfa722fec7fe42\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-ktx:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\ad0f870369414bb9a5b5592f9f1e95a8\transformed\room-ktx-2.5.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b01a68229488159b2a5e328578420476\transformed\room-runtime-2.5.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\70fcc123a4d73aee0095d27a43f08725\transformed\sdp-android-1.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.intuit.ssp:ssp-android:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\5d1bb1a7cc4bdea38831534a92dfc5aa\transformed\ssp-android-1.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\163c2742cb2c813814d0c4f843b1bcd0\transformed\circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\4525b4beda81618451e53cdb6274690c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\190c0732403964fad26baff07f5cb442\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\30d9ac8d41984db8516e53bc6d10d7a9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\eb7380edea96b977b4212181ca6362f8\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Reyuna\.gradle\caches\transforms-3\bcd6dbf16d94b34d8dedce3aaee018fa\transformed\exifinterface-1.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.1] C:\Users\Reyuna\.gradle\caches\transforms-3\e2fbcd85f5d65a8c538079825abed2f1\transformed\documentfile-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c858237441c0ae1dc31aba25b5e090a8\transformed\sqlite-framework-2.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\d8e0f5f4b28d536aea0569c373fcd5fe\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\bd00cde1309dfd2e31298e6ead70e2b3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3d30207b3f156c346e9f70f939216c66\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\563e4dcdc7e6b3aebfa15421a8e85b14\transformed\sqlite-2.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c97d471c48d998cbb301ff83f3aa98e1\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\82a0ec92468fca71cd082530d4b65dba\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\711e636b8b522b679a267c4621ea4b08\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 	package
-		INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:6:5-76
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:6:5-76
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:6:22-73
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:6:22-73
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:7:5-79
-MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:24:5-79
-MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:24:5-79
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:7:5-79
+MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:24:5-79
+MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:7:22-76
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:7:22-76
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:8:5-76
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:8:5-76
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:8:22-73
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:8:22-73
 uses-feature#android.hardware.camera
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:10:5-12:35
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:10:5-12:35
 	android:required
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:12:9-32
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:12:9-32
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:11:9-47
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:11:9-47
 uses-permission#android.permission.CAMERA
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:13:5-65
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:13:5-65
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:13:22-62
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:13:22-62
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:14:5-71
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:14:5-71
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:14:22-68
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:14:22-68
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:17:5-107
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:17:5-107
 	android:maxSdkVersion
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:17:78-104
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:17:78-104
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:17:22-77
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:17:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:18:5-108
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:18:5-108
 	android:maxSdkVersion
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:18:79-105
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:18:79-105
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:18:22-78
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:18:22-78
 uses-permission#android.permission.READ_MEDIA_IMAGES
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:19:5-103
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:19:5-103
 	android:minSdkVersion
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:19:74-100
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:19:74-100
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:19:22-73
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:19:22-73
 uses-permission#android.permission.READ_MEDIA_VIDEO
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:20:5-102
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:20:5-102
 	android:minSdkVersion
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:20:73-99
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:20:73-99
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:20:22-72
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:20:22-72
 uses-permission#android.permission.READ_MEDIA_VISUAL_USER_SELECTED
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:22:5-90
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:22:5-90
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:22:22-87
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:22:22-87
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:24:5-78
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:24:5-78
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:24:22-75
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:24:22-75
 uses-permission#android.permission.POST_NOTIFICATIONS
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:25:5-77
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:25:5-77
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:25:22-74
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:25:22-74
 uses-permission#com.google.android.gms.permission.AD_ID
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:27:5-79
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:27:5-79
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:27:22-76
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:27:22-76
 application
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:30:5-99:19
-INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:30:5-99:19
-MERGED from [com.google.android.material:material:1.11.0] C:\Users\Reyuna\.gradle\caches\transforms-3\f1d24cf2f48aa6223c8587635b3427e4\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.11.0] C:\Users\Reyuna\.gradle\caches\transforms-3\f1d24cf2f48aa6223c8587635b3427e4\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
-MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:28:5-143:19
-MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:28:5-143:19
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Reyuna\.gradle\caches\transforms-3\065da4b1685deac48eb1d58812fa7243\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Reyuna\.gradle\caches\transforms-3\065da4b1685deac48eb1d58812fa7243\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
-MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:21:5-40:19
-MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:21:5-40:19
-MERGED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\609c551425f8dc9225e48429005913c5\transformed\tedpermission-3.3.0\AndroidManifest.xml:9:5-20:19
-MERGED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\609c551425f8dc9225e48429005913c5\transformed\tedpermission-3.3.0\AndroidManifest.xml:9:5-20:19
-MERGED from [com.google.android.gms:play-services-vision:20.1.3] C:\Users\Reyuna\.gradle\caches\transforms-3\01a144c6a3a7462553bccd6148683d68\transformed\play-services-vision-20.1.3\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-vision:20.1.3] C:\Users\Reyuna\.gradle\caches\transforms-3\01a144c6a3a7462553bccd6148683d68\transformed\play-services-vision-20.1.3\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] C:\Users\Reyuna\.gradle\caches\transforms-3\f17ca303cdc4de01082f7457481cc9ae\transformed\play-services-vision-common-19.1.3\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] C:\Users\Reyuna\.gradle\caches\transforms-3\f17ca303cdc4de01082f7457481cc9ae\transformed\play-services-vision-common-19.1.3\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0066e6b198cdb4e568f0e92f3db651d3\transformed\play-services-clearcut-17.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0066e6b198cdb4e568f0e92f3db651d3\transformed\play-services-clearcut-17.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\a8a21cdd922945c5e734352f0d1e719a\transformed\play-services-phenotype-17.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\a8a21cdd922945c5e734352f0d1e719a\transformed\play-services-phenotype-17.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\1cb8b9ad79d604d548262f8b8144836e\transformed\play-services-base-17.4.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\1cb8b9ad79d604d548262f8b8144836e\transformed\play-services-base-17.4.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\ad3c951aa547e58bbac898b9b5e28c0b\transformed\play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\ad3c951aa547e58bbac898b9b5e28c0b\transformed\play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6f72759ead8af5a7e2652495f1a68791\transformed\play-services-basement-17.4.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6f72759ead8af5a7e2652495f1a68791\transformed\play-services-basement-17.4.0\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\31aa0d4c9f2adf1a7768cf5a905e84e4\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\31aa0d4c9f2adf1a7768cf5a905e84e4\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\30588fb3712cf35964020c8599af4864\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\30588fb3712cf35964020c8599af4864\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\79c5bffb82ddcef7b3814d03276f1b2f\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\79c5bffb82ddcef7b3814d03276f1b2f\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c677cc611d576dc3dd5754a9233a70e0\transformed\room-runtime-2.5.0\AndroidManifest.xml:23:5-29:19
-MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c677cc611d576dc3dd5754a9233a70e0\transformed\room-runtime-2.5.0\AndroidManifest.xml:23:5-29:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\68f758e99def1a19e18613292ec42b59\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\68f758e99def1a19e18613292ec42b59\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\d1f41eebff16138cf3d86a358bdb562c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\d1f41eebff16138cf3d86a358bdb562c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:30:5-93:19
+INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:30:5-93:19
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\Reyuna\.gradle\caches\transforms-3\1ee976b8d29de602efa96e4b5aebc38e\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\Reyuna\.gradle\caches\transforms-3\1ee976b8d29de602efa96e4b5aebc38e\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Reyuna\.gradle\caches\transforms-3\f609120d346f91ea8cb44dfd720e0a80\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Reyuna\.gradle\caches\transforms-3\f609120d346f91ea8cb44dfd720e0a80\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:21:5-40:19
+MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:21:5-40:19
+MERGED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6dc3ee1ac70bc82d6c3f56ae2704eb84\transformed\tedpermission-3.3.0\AndroidManifest.xml:9:5-20:19
+MERGED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6dc3ee1ac70bc82d6c3f56ae2704eb84\transformed\tedpermission-3.3.0\AndroidManifest.xml:9:5-20:19
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] C:\Users\Reyuna\.gradle\caches\transforms-3\7c2bfda41b696b2ee6ea86b9056cb6fe\transformed\play-services-vision-20.1.3\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] C:\Users\Reyuna\.gradle\caches\transforms-3\7c2bfda41b696b2ee6ea86b9056cb6fe\transformed\play-services-vision-20.1.3\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] C:\Users\Reyuna\.gradle\caches\transforms-3\b7a4c6e85c6435e8ee68e9ffc95c45eb\transformed\play-services-vision-common-19.1.3\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] C:\Users\Reyuna\.gradle\caches\transforms-3\b7a4c6e85c6435e8ee68e9ffc95c45eb\transformed\play-services-vision-common-19.1.3\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\cbd90e798c962fb5927233b93dc4a03b\transformed\play-services-clearcut-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\cbd90e798c962fb5927233b93dc4a03b\transformed\play-services-clearcut-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0808b43aa97efe1e03a4aa8e480d418e\transformed\play-services-phenotype-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0808b43aa97efe1e03a4aa8e480d418e\transformed\play-services-phenotype-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0e831b47c50453ca2aec6b793e1c8922\transformed\play-services-base-17.4.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0e831b47c50453ca2aec6b793e1c8922\transformed\play-services-base-17.4.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0b856b3c5159438f00d6a5f311ed4469\transformed\play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0b856b3c5159438f00d6a5f311ed4469\transformed\play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\e42e1bb9e0d1c3b7d554abd68979c4ac\transformed\play-services-basement-17.4.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\e42e1bb9e0d1c3b7d554abd68979c4ac\transformed\play-services-basement-17.4.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\2c3b847d797855cf5eed4423951e521b\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\2c3b847d797855cf5eed4423951e521b\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\79ff6a56eb2101ee36dc451aef4a04b7\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\79ff6a56eb2101ee36dc451aef4a04b7\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\eb8e6a0d492d640ee859bec71f58d1af\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\eb8e6a0d492d640ee859bec71f58d1af\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b01a68229488159b2a5e328578420476\transformed\room-runtime-2.5.0\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b01a68229488159b2a5e328578420476\transformed\room-runtime-2.5.0\AndroidManifest.xml:23:5-29:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\163c2742cb2c813814d0c4f843b1bcd0\transformed\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\163c2742cb2c813814d0c4f843b1bcd0\transformed\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\30d9ac8d41984db8516e53bc6d10d7a9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\30d9ac8d41984db8516e53bc6d10d7a9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\bd00cde1309dfd2e31298e6ead70e2b3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\bd00cde1309dfd2e31298e6ead70e2b3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
-		INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml
 	android:roundIcon
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:37:9-54
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:37:9-54
 	android:largeHeap
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:39:9-33
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:39:9-33
 	android:icon
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:35:9-43
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:35:9-43
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\30588fb3712cf35964020c8599af4864\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\79ff6a56eb2101ee36dc451aef4a04b7\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:38:9-35
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:38:9-35
 	android:label
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:36:9-41
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:36:9-41
 	android:fullBackupContent
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:34:9-54
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:34:9-54
 	tools:targetApi
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:42:9-29
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:42:9-29
 	android:allowBackup
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:32:9-35
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:32:9-35
 	android:theme
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:41:9-40
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:41:9-40
 	android:dataExtractionRules
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:33:9-65
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:33:9-65
 	android:usesCleartextTraffic
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:40:9-44
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:40:9-44
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:31:9-58
-activity#com.texttranslate.voiceimage.ExitActivity
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:45:9-47:40
-	android:exported
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:47:13-37
-	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:46:13-41
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:31:9-58
 activity#com.texttranslate.voiceimage.SplashActivity
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:48:9-57:20
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:45:9-54:20
 	android:screenOrientation
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:51:13-49
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:48:13-49
 	android:exported
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:50:13-36
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:47:13-36
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:49:13-43
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:46:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:52:13-56:29
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:49:13-53:29
 action#android.intent.action.MAIN
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:53:17-69
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:50:17-69
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:53:25-66
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:50:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:55:17-77
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:52:17-77
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:55:27-74
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:52:27-74
 activity#com.texttranslate.voiceimage.IntroActivity
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:58:9-61:52
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:55:9-58:52
 	android:screenOrientation
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:61:13-49
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:58:13-49
 	android:exported
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:60:13-37
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:57:13-37
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:59:13-42
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:56:13-42
 activity#com.texttranslate.voiceimage.HomeActivity
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:62:9-65:52
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:59:9-62:52
 	android:screenOrientation
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:65:13-49
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:62:13-49
 	android:exported
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:64:13-37
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:61:13-37
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:63:13-41
-activity#com.texttranslate.voiceimage.StartActivity
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:66:9-69:52
-	android:screenOrientation
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:69:13-49
-	android:exported
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:68:13-37
-	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:67:13-42
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:60:13-41
 activity#com.texttranslate.voiceimage.VoiceActivity
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:70:9-73:52
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:64:9-67:52
 	android:screenOrientation
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:73:13-49
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:67:13-49
 	android:exported
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:72:13-37
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:66:13-37
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:71:13-42
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:65:13-42
 activity#com.texttranslate.voiceimage.TextActivity
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:75:9-78:52
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:69:9-72:52
 	android:screenOrientation
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:78:13-49
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:72:13-49
 	android:exported
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:77:13-37
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:71:13-37
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:76:13-41
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:70:13-41
 activity#com.texttranslate.voiceimage.CameraActivity
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:79:9-82:52
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:73:9-76:52
 	android:screenOrientation
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:82:13-49
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:76:13-49
 	android:exported
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:81:13-37
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:75:13-37
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:80:13-43
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:74:13-43
 uses-library#org.apache.http.legacy
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:96:9-98:40
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:90:9-92:40
 	android:required
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:98:13-37
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:92:13-37
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:97:13-50
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:91:13-50
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:91:13-93:58
+ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:85:13-87:58
 	android:resource
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:93:17-55
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:87:17-55
 	android:name
-		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml:92:17-67
+		ADDED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml:86:17-67
 uses-sdk
-INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml
-INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml
-MERGED from [androidx.databinding:viewbinding:8.3.1] C:\Users\Reyuna\.gradle\caches\transforms-3\85c4b17cdda42de890a348c87c96711c\transformed\viewbinding-8.3.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.databinding:viewbinding:8.3.1] C:\Users\Reyuna\.gradle\caches\transforms-3\85c4b17cdda42de890a348c87c96711c\transformed\viewbinding-8.3.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.material:material:1.11.0] C:\Users\Reyuna\.gradle\caches\transforms-3\f1d24cf2f48aa6223c8587635b3427e4\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.11.0] C:\Users\Reyuna\.gradle\caches\transforms-3\f1d24cf2f48aa6223c8587635b3427e4\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Reyuna\.gradle\caches\transforms-3\065da4b1685deac48eb1d58812fa7243\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Reyuna\.gradle\caches\transforms-3\065da4b1685deac48eb1d58812fa7243\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:5:5-7:41
-MERGED from [io.github.ParkSangGwon:tedpermission-normal:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\575d8e8577603461ec3bb2385417795c\transformed\tedpermission-normal-3.3.0\AndroidManifest.xml:5:5-7:41
-MERGED from [io.github.ParkSangGwon:tedpermission-normal:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\575d8e8577603461ec3bb2385417795c\transformed\tedpermission-normal-3.3.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\6ffee904c57aaaf9be4244e794abf68f\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\6ffee904c57aaaf9be4244e794abf68f\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [com.github.yalantis:ucrop:2.2.6] C:\Users\Reyuna\.gradle\caches\transforms-3\4189a716d59c0caa70b941caf31e2aef\transformed\ucrop-2.2.6\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.yalantis:ucrop:2.2.6] C:\Users\Reyuna\.gradle\caches\transforms-3\4189a716d59c0caa70b941caf31e2aef\transformed\ucrop-2.2.6\AndroidManifest.xml:7:5-9:41
-MERGED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\609c551425f8dc9225e48429005913c5\transformed\tedpermission-3.3.0\AndroidManifest.xml:5:5-7:41
-MERGED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\609c551425f8dc9225e48429005913c5\transformed\tedpermission-3.3.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\ea636195546b5160d5f819847f9d22d9\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\ea636195546b5160d5f819847f9d22d9\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\07b4e4531adf6b1d2ab5d866e8136c91\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\07b4e4531adf6b1d2ab5d866e8136c91\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-vision:20.1.3] C:\Users\Reyuna\.gradle\caches\transforms-3\01a144c6a3a7462553bccd6148683d68\transformed\play-services-vision-20.1.3\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-vision:20.1.3] C:\Users\Reyuna\.gradle\caches\transforms-3\01a144c6a3a7462553bccd6148683d68\transformed\play-services-vision-20.1.3\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] C:\Users\Reyuna\.gradle\caches\transforms-3\f17ca303cdc4de01082f7457481cc9ae\transformed\play-services-vision-common-19.1.3\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] C:\Users\Reyuna\.gradle\caches\transforms-3\f17ca303cdc4de01082f7457481cc9ae\transformed\play-services-vision-common-19.1.3\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0066e6b198cdb4e568f0e92f3db651d3\transformed\play-services-clearcut-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0066e6b198cdb4e568f0e92f3db651d3\transformed\play-services-clearcut-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\507e1255ae92cc8263b6fb33780c114e\transformed\play-services-flags-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\507e1255ae92cc8263b6fb33780c114e\transformed\play-services-flags-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\a8a21cdd922945c5e734352f0d1e719a\transformed\play-services-phenotype-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\a8a21cdd922945c5e734352f0d1e719a\transformed\play-services-phenotype-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\1cb8b9ad79d604d548262f8b8144836e\transformed\play-services-base-17.4.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\1cb8b9ad79d604d548262f8b8144836e\transformed\play-services-base-17.4.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\ad3c951aa547e58bbac898b9b5e28c0b\transformed\play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\ad3c951aa547e58bbac898b9b5e28c0b\transformed\play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6f72759ead8af5a7e2652495f1a68791\transformed\play-services-basement-17.4.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6f72759ead8af5a7e2652495f1a68791\transformed\play-services-basement-17.4.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Reyuna\.gradle\caches\transforms-3\9306d6197e8e3184379a1a297903b958\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Reyuna\.gradle\caches\transforms-3\9306d6197e8e3184379a1a297903b958\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.8.0] C:\Users\Reyuna\.gradle\caches\transforms-3\889cd5719c0c16714974f0410abba1fc\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.8.0] C:\Users\Reyuna\.gradle\caches\transforms-3\889cd5719c0c16714974f0410abba1fc\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\f8dd1a78ff1312057300f45bba37c357\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\f8dd1a78ff1312057300f45bba37c357\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\490a55b8099e72397bf775107dcf9c9a\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\490a55b8099e72397bf775107dcf9c9a\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\31aa0d4c9f2adf1a7768cf5a905e84e4\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\31aa0d4c9f2adf1a7768cf5a905e84e4\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\f70d921f0ca1edb35a89d9052c7c1438\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\f70d921f0ca1edb35a89d9052c7c1438\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\d95ab8ae0a03d2a5928c01e2a8c6a2f6\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\d95ab8ae0a03d2a5928c01e2a8c6a2f6\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\9e6c43e8e28e7511673d4e51158ea17c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\9e6c43e8e28e7511673d4e51158ea17c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\1b69bf7b13fd6bef35642c0029448567\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\1b69bf7b13fd6bef35642c0029448567\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\7d4070e9dc395425cd1d1003178c4464\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\7d4070e9dc395425cd1d1003178c4464\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\d6e6abc5e35c9e0a9fba1a0b5f4ad3c5\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\d6e6abc5e35c9e0a9fba1a0b5f4ad3c5\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\848ac37bd8a5fa930aafbad6e72b8793\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\848ac37bd8a5fa930aafbad6e72b8793\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\8d6a4c1e154927e621fdc4dc8a60f9f3\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\8d6a4c1e154927e621fdc4dc8a60f9f3\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\4dd47dcbdc6e6a9069263e9bcf4598b5\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\4dd47dcbdc6e6a9069263e9bcf4598b5\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c4264adb8cd8a17c390bf3dae7fd15b6\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c4264adb8cd8a17c390bf3dae7fd15b6\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\5f83a28425ea303bc904c11e930e0e7b\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\5f83a28425ea303bc904c11e930e0e7b\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\30588fb3712cf35964020c8599af4864\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\30588fb3712cf35964020c8599af4864\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\d1cfa3d671e619e55ce50bdf9a1f6c16\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\d1cfa3d671e619e55ce50bdf9a1f6c16\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\7a9a601499e759e9a6e26000c4c96eaf\transformed\lifecycle-service-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\7a9a601499e759e9a6e26000c4c96eaf\transformed\lifecycle-service-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\79c5bffb82ddcef7b3814d03276f1b2f\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\79c5bffb82ddcef7b3814d03276f1b2f\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\18fbfbd4dae3fa5e6d2484da11cd08a8\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\18fbfbd4dae3fa5e6d2484da11cd08a8\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\04b90fa7d60fbc8fcc919d47e27c86d0\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\04b90fa7d60fbc8fcc919d47e27c86d0\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\cfa5ae46b4078dc43b20a499a34b98bf\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\cfa5ae46b4078dc43b20a499a34b98bf\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\94e2380e322f3b71be711352197fc14b\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\94e2380e322f3b71be711352197fc14b\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\5934093d5f5d1cac804fa63aaa01abc3\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\5934093d5f5d1cac804fa63aaa01abc3\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-ktx:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\a734acf40bec87684cc963f549ed6dfe\transformed\room-ktx-2.5.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-ktx:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\a734acf40bec87684cc963f549ed6dfe\transformed\room-ktx-2.5.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c677cc611d576dc3dd5754a9233a70e0\transformed\room-runtime-2.5.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c677cc611d576dc3dd5754a9233a70e0\transformed\room-runtime-2.5.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\9541f16cc60b778b286d4526710f8863\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\9541f16cc60b778b286d4526710f8863\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\573e84ca6d1279ce8005a95ad8dfc277\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\573e84ca6d1279ce8005a95ad8dfc277\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\68f758e99def1a19e18613292ec42b59\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\68f758e99def1a19e18613292ec42b59\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\1fdc8476956cf742906e4739ab5052b1\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\1fdc8476956cf742906e4739ab5052b1\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Reyuna\.gradle\caches\transforms-3\b52b9304d6b8fdb75e68e5621ad957c7\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Reyuna\.gradle\caches\transforms-3\b52b9304d6b8fdb75e68e5621ad957c7\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.documentfile:documentfile:1.0.1] C:\Users\Reyuna\.gradle\caches\transforms-3\752c683c7799c3968cdb8658d291ce90\transformed\documentfile-1.0.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.1] C:\Users\Reyuna\.gradle\caches\transforms-3\752c683c7799c3968cdb8658d291ce90\transformed\documentfile-1.0.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c002dbc9b82e8e606d81d31424074407\transformed\sqlite-framework-2.3.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c002dbc9b82e8e606d81d31424074407\transformed\sqlite-framework-2.3.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\ea13cb0c09230ada40fdcd747612abf5\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\ea13cb0c09230ada40fdcd747612abf5\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\d1f41eebff16138cf3d86a358bdb562c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\d1f41eebff16138cf3d86a358bdb562c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6be25a2adf5d53e5e72dfcb7a9f05f24\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6be25a2adf5d53e5e72dfcb7a9f05f24\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\5b0794dea2352ff3100f9980dba5d6d2\transformed\sqlite-2.3.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\5b0794dea2352ff3100f9980dba5d6d2\transformed\sqlite-2.3.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\e1cb2a1a2df34273a19bc72c18a5e47b\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\e1cb2a1a2df34273a19bc72c18a5e47b\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\4bff6de3e4ccdb539876f3ca4414ddb9\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\4bff6de3e4ccdb539876f3ca4414ddb9\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\9e26874e1b5997f7fcb5e66ff106b8ed\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\9e26874e1b5997f7fcb5e66ff106b8ed\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml
+INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.3.1] C:\Users\Reyuna\.gradle\caches\transforms-3\029af561bb68201df26baa360003daa7\transformed\viewbinding-8.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.3.1] C:\Users\Reyuna\.gradle\caches\transforms-3\029af561bb68201df26baa360003daa7\transformed\viewbinding-8.3.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\Reyuna\.gradle\caches\transforms-3\1ee976b8d29de602efa96e4b5aebc38e\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\Reyuna\.gradle\caches\transforms-3\1ee976b8d29de602efa96e4b5aebc38e\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Reyuna\.gradle\caches\transforms-3\f609120d346f91ea8cb44dfd720e0a80\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Reyuna\.gradle\caches\transforms-3\f609120d346f91ea8cb44dfd720e0a80\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:5:5-7:41
+MERGED from [io.github.ParkSangGwon:tedpermission-normal:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\36a8ebdebac18450d4988a0ea8f379ad\transformed\tedpermission-normal-3.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [io.github.ParkSangGwon:tedpermission-normal:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\36a8ebdebac18450d4988a0ea8f379ad\transformed\tedpermission-normal-3.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\12deab7fa0f3a6a241a9848e2908c0cd\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\12deab7fa0f3a6a241a9848e2908c0cd\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.github.yalantis:ucrop:2.2.6] C:\Users\Reyuna\.gradle\caches\transforms-3\e824fc4ff80fe7ae005688ba5c3f6b87\transformed\ucrop-2.2.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.6] C:\Users\Reyuna\.gradle\caches\transforms-3\e824fc4ff80fe7ae005688ba5c3f6b87\transformed\ucrop-2.2.6\AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6dc3ee1ac70bc82d6c3f56ae2704eb84\transformed\tedpermission-3.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6dc3ee1ac70bc82d6c3f56ae2704eb84\transformed\tedpermission-3.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\8ee9b4d5b409e51c5c35acc885bf36f4\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\8ee9b4d5b409e51c5c35acc885bf36f4\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\ec18c851223944462b3b550b4204306e\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\ec18c851223944462b3b550b4204306e\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] C:\Users\Reyuna\.gradle\caches\transforms-3\7c2bfda41b696b2ee6ea86b9056cb6fe\transformed\play-services-vision-20.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] C:\Users\Reyuna\.gradle\caches\transforms-3\7c2bfda41b696b2ee6ea86b9056cb6fe\transformed\play-services-vision-20.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] C:\Users\Reyuna\.gradle\caches\transforms-3\b7a4c6e85c6435e8ee68e9ffc95c45eb\transformed\play-services-vision-common-19.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] C:\Users\Reyuna\.gradle\caches\transforms-3\b7a4c6e85c6435e8ee68e9ffc95c45eb\transformed\play-services-vision-common-19.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\cbd90e798c962fb5927233b93dc4a03b\transformed\play-services-clearcut-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\cbd90e798c962fb5927233b93dc4a03b\transformed\play-services-clearcut-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\15bd97549195f8da015b43aab64495cf\transformed\play-services-flags-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\15bd97549195f8da015b43aab64495cf\transformed\play-services-flags-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0808b43aa97efe1e03a4aa8e480d418e\transformed\play-services-phenotype-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0808b43aa97efe1e03a4aa8e480d418e\transformed\play-services-phenotype-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0e831b47c50453ca2aec6b793e1c8922\transformed\play-services-base-17.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0e831b47c50453ca2aec6b793e1c8922\transformed\play-services-base-17.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0b856b3c5159438f00d6a5f311ed4469\transformed\play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0b856b3c5159438f00d6a5f311ed4469\transformed\play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\e42e1bb9e0d1c3b7d554abd68979c4ac\transformed\play-services-basement-17.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\e42e1bb9e0d1c3b7d554abd68979c4ac\transformed\play-services-basement-17.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Reyuna\.gradle\caches\transforms-3\17b0bd327b5af3ff26948865f24d0d2d\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Reyuna\.gradle\caches\transforms-3\17b0bd327b5af3ff26948865f24d0d2d\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\Reyuna\.gradle\caches\transforms-3\d9d40fab27329cf85d8e100e8eb36e48\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\Reyuna\.gradle\caches\transforms-3\d9d40fab27329cf85d8e100e8eb36e48\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\774b0e9393131faabb113176f48ac08d\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\774b0e9393131faabb113176f48ac08d\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c94dd1437730eeec8772ecc2f586539b\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c94dd1437730eeec8772ecc2f586539b\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\2c3b847d797855cf5eed4423951e521b\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\2c3b847d797855cf5eed4423951e521b\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\3e8db6be7fed43d2ba038c8aca59f37e\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\3e8db6be7fed43d2ba038c8aca59f37e\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0152820fd3ad19286f7c75d3f74ffc1f\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0152820fd3ad19286f7c75d3f74ffc1f\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\2a9961ed5b667774f532c6dc66e5e04f\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\2a9961ed5b667774f532c6dc66e5e04f\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\f75b6fff707284ffb2baa9d958c294b2\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\f75b6fff707284ffb2baa9d958c294b2\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\1feac704cb0d77056a7aa4c9ec7c8a19\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\1feac704cb0d77056a7aa4c9ec7c8a19\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c140a24037fd1def3499d78eba0ae981\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c140a24037fd1def3499d78eba0ae981\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\2a353e5049c5d27fb3345d150cc12ca3\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\2a353e5049c5d27fb3345d150cc12ca3\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\884afff07c4f3b8e5a720d9e4b89c992\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\884afff07c4f3b8e5a720d9e4b89c992\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\2a6af8085e5d85825a7970fdd568b6aa\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\2a6af8085e5d85825a7970fdd568b6aa\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c4d92fc05e8d3ae97b34e31b9176e62c\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c4d92fc05e8d3ae97b34e31b9176e62c\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\8d8f3af5ca31bf4b3296574dbe2ac645\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\8d8f3af5ca31bf4b3296574dbe2ac645\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\79ff6a56eb2101ee36dc451aef4a04b7\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\79ff6a56eb2101ee36dc451aef4a04b7\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\c174e3f84a2c10954a75d81c0068fd97\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\c174e3f84a2c10954a75d81c0068fd97\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\5cac9cd046dea9d21a3fdfe75d86a409\transformed\lifecycle-service-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\5cac9cd046dea9d21a3fdfe75d86a409\transformed\lifecycle-service-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\eb8e6a0d492d640ee859bec71f58d1af\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\eb8e6a0d492d640ee859bec71f58d1af\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\4bf9120e980f088a3fbe9f8db257b51c\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\4bf9120e980f088a3fbe9f8db257b51c\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\23526b5b41c3503da907cb6da434ac68\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\23526b5b41c3503da907cb6da434ac68\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\6e817363e6a9cc7459c60bb357e2bae0\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\6e817363e6a9cc7459c60bb357e2bae0\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\ccdc0691c861c2a24e7a155242aa123e\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\ccdc0691c861c2a24e7a155242aa123e\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\795f6b87fad46b3995cfa722fec7fe42\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\795f6b87fad46b3995cfa722fec7fe42\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\ad0f870369414bb9a5b5592f9f1e95a8\transformed\room-ktx-2.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\ad0f870369414bb9a5b5592f9f1e95a8\transformed\room-ktx-2.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b01a68229488159b2a5e328578420476\transformed\room-runtime-2.5.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b01a68229488159b2a5e328578420476\transformed\room-runtime-2.5.0\AndroidManifest.xml:21:5-44
+MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\70fcc123a4d73aee0095d27a43f08725\transformed\sdp-android-1.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\70fcc123a4d73aee0095d27a43f08725\transformed\sdp-android-1.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.ssp:ssp-android:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\5d1bb1a7cc4bdea38831534a92dfc5aa\transformed\ssp-android-1.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.ssp:ssp-android:1.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\5d1bb1a7cc4bdea38831534a92dfc5aa\transformed\ssp-android-1.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\163c2742cb2c813814d0c4f843b1bcd0\transformed\circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Reyuna\.gradle\caches\transforms-3\163c2742cb2c813814d0c4f843b1bcd0\transformed\circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\4525b4beda81618451e53cdb6274690c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\4525b4beda81618451e53cdb6274690c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\190c0732403964fad26baff07f5cb442\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\190c0732403964fad26baff07f5cb442\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\30d9ac8d41984db8516e53bc6d10d7a9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\30d9ac8d41984db8516e53bc6d10d7a9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\eb7380edea96b977b4212181ca6362f8\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\eb7380edea96b977b4212181ca6362f8\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Reyuna\.gradle\caches\transforms-3\bcd6dbf16d94b34d8dedce3aaee018fa\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Reyuna\.gradle\caches\transforms-3\bcd6dbf16d94b34d8dedce3aaee018fa\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.1] C:\Users\Reyuna\.gradle\caches\transforms-3\e2fbcd85f5d65a8c538079825abed2f1\transformed\documentfile-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.1] C:\Users\Reyuna\.gradle\caches\transforms-3\e2fbcd85f5d65a8c538079825abed2f1\transformed\documentfile-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c858237441c0ae1dc31aba25b5e090a8\transformed\sqlite-framework-2.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c858237441c0ae1dc31aba25b5e090a8\transformed\sqlite-framework-2.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\d8e0f5f4b28d536aea0569c373fcd5fe\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\d8e0f5f4b28d536aea0569c373fcd5fe\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\bd00cde1309dfd2e31298e6ead70e2b3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\bd00cde1309dfd2e31298e6ead70e2b3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3d30207b3f156c346e9f70f939216c66\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3d30207b3f156c346e9f70f939216c66\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\563e4dcdc7e6b3aebfa15421a8e85b14\transformed\sqlite-2.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\563e4dcdc7e6b3aebfa15421a8e85b14\transformed\sqlite-2.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c97d471c48d998cbb301ff83f3aa98e1\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c97d471c48d998cbb301ff83f3aa98e1\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\82a0ec92468fca71cd082530d4b65dba\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Reyuna\.gradle\caches\transforms-3\82a0ec92468fca71cd082530d4b65dba\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\711e636b8b522b679a267c4621ea4b08\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\711e636b8b522b679a267c4621ea4b08\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
-		INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android with Rossyn\AIVoiceTextTranslator\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:23:5-68
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:23:5-68
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:23:22-65
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:23:22-65
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:25:5-81
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:25:5-81
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:25:22-78
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:25:22-78
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:26:5-77
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:26:5-77
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:26:22-74
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:26:22-74
 provider#androidx.startup.InitializationProvider
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:29:9-37:20
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\31aa0d4c9f2adf1a7768cf5a905e84e4\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\31aa0d4c9f2adf1a7768cf5a905e84e4\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\79c5bffb82ddcef7b3814d03276f1b2f\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\79c5bffb82ddcef7b3814d03276f1b2f\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\68f758e99def1a19e18613292ec42b59\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\68f758e99def1a19e18613292ec42b59\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\2c3b847d797855cf5eed4423951e521b\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\2c3b847d797855cf5eed4423951e521b\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\eb8e6a0d492d640ee859bec71f58d1af\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\eb8e6a0d492d640ee859bec71f58d1af\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\30d9ac8d41984db8516e53bc6d10d7a9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Reyuna\.gradle\caches\transforms-3\30d9ac8d41984db8516e53bc6d10d7a9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
 	tools:node
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:33:13-31
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:33:13-31
 	android:authorities
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:31:13-68
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:31:13-68
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:32:13-37
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:30:13-67
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:30:13-67
 meta-data#androidx.work.WorkManagerInitializer
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:34:13-36:52
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:34:13-36:52
 	android:value
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:36:17-49
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:36:17-49
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:35:17-68
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:35:17-68
 service#androidx.work.impl.background.systemalarm.SystemAlarmService
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:39:9-45:35
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:39:9-45:35
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:42:13-72
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:42:13-72
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:43:13-37
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:43:13-37
 	tools:ignore
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:44:13-60
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:44:13-60
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:45:13-32
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:45:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:41:13-44
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:41:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:40:13-88
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:40:13-88
 service#androidx.work.impl.background.systemjob.SystemJobService
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:46:9-52:35
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:46:9-52:35
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:49:13-70
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:49:13-70
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:50:13-36
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:50:13-36
 	android:permission
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:51:13-69
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:51:13-69
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:52:13-32
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:52:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:48:13-44
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:48:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:47:13-84
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:47:13-84
 service#androidx.work.impl.foreground.SystemForegroundService
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:53:9-59:35
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:53:9-59:35
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:56:13-77
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:56:13-77
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:57:13-37
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:57:13-37
 	tools:ignore
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:58:13-60
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:58:13-60
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:59:13-32
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:59:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:55:13-44
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:55:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:54:13-81
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:54:13-81
 receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:61:9-66:35
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:61:9-66:35
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:64:13-35
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:64:13-35
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:65:13-37
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:65:13-37
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:66:13-32
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:66:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:63:13-44
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:63:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:62:13-88
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:62:13-88
 receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:67:9-77:20
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:67:9-77:20
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:70:13-36
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:70:13-36
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:71:13-37
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:71:13-37
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:72:13-32
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:72:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:69:13-44
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:69:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:68:13-106
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:68:13-106
 intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:73:13-76:29
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:73:13-76:29
 action#android.intent.action.ACTION_POWER_CONNECTED
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:74:17-87
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:74:17-87
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:74:25-84
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:74:25-84
 action#android.intent.action.ACTION_POWER_DISCONNECTED
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:75:17-90
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:75:17-90
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:75:25-87
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:75:25-87
 receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:78:9-88:20
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:78:9-88:20
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:81:13-36
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:81:13-36
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:82:13-37
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:82:13-37
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:83:13-32
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:83:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:80:13-44
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:80:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:79:13-104
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:79:13-104
 intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:84:13-87:29
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:84:13-87:29
 action#android.intent.action.BATTERY_OKAY
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:85:17-77
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:85:17-77
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:85:25-74
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:85:25-74
 action#android.intent.action.BATTERY_LOW
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:86:17-76
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:86:17-76
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:86:25-73
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:86:25-73
 receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:89:9-99:20
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:89:9-99:20
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:92:13-36
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:92:13-36
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:93:13-37
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:93:13-37
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:94:13-32
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:94:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:91:13-44
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:91:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:90:13-104
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:90:13-104
 intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:95:13-98:29
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:95:13-98:29
 action#android.intent.action.DEVICE_STORAGE_LOW
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:96:17-83
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:96:17-83
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:96:25-80
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:96:25-80
 action#android.intent.action.DEVICE_STORAGE_OK
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:97:17-82
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:97:17-82
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:97:25-79
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:97:25-79
 receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:100:9-109:20
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:100:9-109:20
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:103:13-36
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:103:13-36
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:104:13-37
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:104:13-37
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:105:13-32
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:105:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:102:13-44
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:102:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:101:13-103
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:101:13-103
 intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:106:13-108:29
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:106:13-108:29
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:107:17-79
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:107:17-79
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:107:25-76
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:107:25-76
 receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:110:9-121:20
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:110:9-121:20
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:113:13-36
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:113:13-36
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:114:13-37
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:114:13-37
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:115:13-32
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:115:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:112:13-44
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:112:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:111:13-88
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:111:13-88
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:116:13-120:29
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:116:13-120:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:117:17-79
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:117:17-79
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:117:25-76
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:117:25-76
 action#android.intent.action.TIME_SET
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:118:17-73
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:118:17-73
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:118:25-70
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:118:25-70
 action#android.intent.action.TIMEZONE_CHANGED
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:119:17-81
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:119:17-81
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:119:25-78
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:119:25-78
 receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:122:9-131:20
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:122:9-131:20
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:125:13-72
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:125:13-72
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:126:13-37
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:126:13-37
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:127:13-32
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:127:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:124:13-44
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:124:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:123:13-99
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:123:13-99
 intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:128:13-130:29
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:128:13-130:29
 action#androidx.work.impl.background.systemalarm.UpdateProxies
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:129:17-98
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:129:17-98
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:129:25-95
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:129:25-95
 receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:132:9-142:20
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:132:9-142:20
 	android:enabled
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:135:13-35
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:135:13-35
 	android:exported
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:136:13-36
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:136:13-36
 	android:permission
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:137:13-57
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:137:13-57
 	tools:targetApi
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:138:13-32
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:138:13-32
 	android:directBootAware
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:134:13-44
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:134:13-44
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:133:13-78
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:133:13-78
 intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:139:13-141:29
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:139:13-141:29
 action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
-ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:140:17-88
+ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:140:17-88
 	android:name
-		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0f99b1910353ec9d14c53fd343f3f440\transformed\work-runtime-2.9.0\AndroidManifest.xml:140:25-85
+		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b58e48249ad4033d222f8cf102395c9a\transformed\work-runtime-2.9.0\AndroidManifest.xml:140:25-85
 queries
-ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:9:5-19:15
+ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:9:5-19:15
 intent#action:name:android.media.action.IMAGE_CAPTURE
-ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:12:9-14:18
+ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:12:9-14:18
 action#android.media.action.IMAGE_CAPTURE
-ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:13:13-73
+ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:13:13-73
 	android:name
-		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:13:21-70
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:13:21-70
 intent#action:name:android.intent.action.OPEN_DOCUMENT_TREE
-ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:16:9-18:18
+ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:16:9-18:18
 action#android.intent.action.OPEN_DOCUMENT_TREE
-ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:17:13-79
+ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:17:13-79
 	android:name
-		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:17:21-76
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:17:21-76
 activity#com.github.dhaval2404.imagepicker.ImagePickerActivity
-ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:22:9-25:68
+ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:22:9-25:68
 	android:screenOrientation
-		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:24:13-52
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:24:13-52
 	android:theme
-		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:25:13-65
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:25:13-65
 	android:name
-		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:23:13-81
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:23:13-81
 activity#com.yalantis.ucrop.UCropActivity
-ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:26:9-29:72
+ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:26:9-29:72
 	android:screenOrientation
-		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:28:13-49
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:28:13-49
 	android:theme
-		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:29:13-69
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:29:13-69
 	android:name
-		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:27:13-60
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:27:13-60
 provider#com.github.dhaval2404.imagepicker.ImagePickerFileProvider
-ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:31:9-39:20
+ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:31:9-39:20
 	android:grantUriPermissions
-		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:35:13-47
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:35:13-47
 	android:authorities
-		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:33:13-72
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:33:13-72
 	android:exported
-		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:34:13-37
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\b093f63212fef21713b0c8b0938fafa8\transformed\imagepicker-2.1\AndroidManifest.xml:32:13-85
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Reyuna\.gradle\caches\transforms-3\78efdf1042003fb412661bf331f69689\transformed\imagepicker-2.1\AndroidManifest.xml:32:13-85
 activity#com.gun0912.tedpermission.TedPermissionActivity
-ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\609c551425f8dc9225e48429005913c5\transformed\tedpermission-3.3.0\AndroidManifest.xml:10:9-14:67
+ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6dc3ee1ac70bc82d6c3f56ae2704eb84\transformed\tedpermission-3.3.0\AndroidManifest.xml:10:9-14:67
 	android:screenOrientation
-		ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\609c551425f8dc9225e48429005913c5\transformed\tedpermission-3.3.0\AndroidManifest.xml:13:13-52
+		ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6dc3ee1ac70bc82d6c3f56ae2704eb84\transformed\tedpermission-3.3.0\AndroidManifest.xml:13:13-52
 	android:configChanges
-		ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\609c551425f8dc9225e48429005913c5\transformed\tedpermission-3.3.0\AndroidManifest.xml:12:13-144
+		ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6dc3ee1ac70bc82d6c3f56ae2704eb84\transformed\tedpermission-3.3.0\AndroidManifest.xml:12:13-144
 	android:theme
-		ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\609c551425f8dc9225e48429005913c5\transformed\tedpermission-3.3.0\AndroidManifest.xml:14:13-64
+		ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6dc3ee1ac70bc82d6c3f56ae2704eb84\transformed\tedpermission-3.3.0\AndroidManifest.xml:14:13-64
 	android:name
-		ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\609c551425f8dc9225e48429005913c5\transformed\tedpermission-3.3.0\AndroidManifest.xml:11:13-75
+		ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6dc3ee1ac70bc82d6c3f56ae2704eb84\transformed\tedpermission-3.3.0\AndroidManifest.xml:11:13-75
 provider#com.gun0912.tedpermission.provider.TedPermissionProvider
-ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\609c551425f8dc9225e48429005913c5\transformed\tedpermission-3.3.0\AndroidManifest.xml:16:9-19:40
+ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6dc3ee1ac70bc82d6c3f56ae2704eb84\transformed\tedpermission-3.3.0\AndroidManifest.xml:16:9-19:40
 	android:authorities
-		ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\609c551425f8dc9225e48429005913c5\transformed\tedpermission-3.3.0\AndroidManifest.xml:18:13-73
+		ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6dc3ee1ac70bc82d6c3f56ae2704eb84\transformed\tedpermission-3.3.0\AndroidManifest.xml:18:13-73
 	android:exported
-		ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\609c551425f8dc9225e48429005913c5\transformed\tedpermission-3.3.0\AndroidManifest.xml:19:13-37
+		ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6dc3ee1ac70bc82d6c3f56ae2704eb84\transformed\tedpermission-3.3.0\AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\609c551425f8dc9225e48429005913c5\transformed\tedpermission-3.3.0\AndroidManifest.xml:17:13-84
+		ADDED from [io.github.ParkSangGwon:tedpermission:3.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6dc3ee1ac70bc82d6c3f56ae2704eb84\transformed\tedpermission-3.3.0\AndroidManifest.xml:17:13-84
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\1cb8b9ad79d604d548262f8b8144836e\transformed\play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0e831b47c50453ca2aec6b793e1c8922\transformed\play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\1cb8b9ad79d604d548262f8b8144836e\transformed\play-services-base-17.4.0\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0e831b47c50453ca2aec6b793e1c8922\transformed\play-services-base-17.4.0\AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\1cb8b9ad79d604d548262f8b8144836e\transformed\play-services-base-17.4.0\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0e831b47c50453ca2aec6b793e1c8922\transformed\play-services-base-17.4.0\AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\1cb8b9ad79d604d548262f8b8144836e\transformed\play-services-base-17.4.0\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\0e831b47c50453ca2aec6b793e1c8922\transformed\play-services-base-17.4.0\AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6f72759ead8af5a7e2652495f1a68791\transformed\play-services-basement-17.4.0\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\e42e1bb9e0d1c3b7d554abd68979c4ac\transformed\play-services-basement-17.4.0\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6f72759ead8af5a7e2652495f1a68791\transformed\play-services-basement-17.4.0\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\e42e1bb9e0d1c3b7d554abd68979c4ac\transformed\play-services-basement-17.4.0\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\6f72759ead8af5a7e2652495f1a68791\transformed\play-services-basement-17.4.0\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\Reyuna\.gradle\caches\transforms-3\e42e1bb9e0d1c3b7d554abd68979c4ac\transformed\play-services-basement-17.4.0\AndroidManifest.xml:24:13-58
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\31aa0d4c9f2adf1a7768cf5a905e84e4\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\2c3b847d797855cf5eed4423951e521b\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\31aa0d4c9f2adf1a7768cf5a905e84e4\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\2c3b847d797855cf5eed4423951e521b\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\31aa0d4c9f2adf1a7768cf5a905e84e4\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Reyuna\.gradle\caches\transforms-3\2c3b847d797855cf5eed4423951e521b\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\30588fb3712cf35964020c8599af4864\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\79ff6a56eb2101ee36dc451aef4a04b7\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\30588fb3712cf35964020c8599af4864\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\79ff6a56eb2101ee36dc451aef4a04b7\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\30588fb3712cf35964020c8599af4864\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\79ff6a56eb2101ee36dc451aef4a04b7\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
 permission#com.texttranslate.voiceimage.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\30588fb3712cf35964020c8599af4864\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\79ff6a56eb2101ee36dc451aef4a04b7\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\30588fb3712cf35964020c8599af4864\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\79ff6a56eb2101ee36dc451aef4a04b7\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\30588fb3712cf35964020c8599af4864\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\79ff6a56eb2101ee36dc451aef4a04b7\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\30588fb3712cf35964020c8599af4864\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\79ff6a56eb2101ee36dc451aef4a04b7\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\30588fb3712cf35964020c8599af4864\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\79ff6a56eb2101ee36dc451aef4a04b7\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 uses-permission#com.texttranslate.voiceimage.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\30588fb3712cf35964020c8599af4864\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\79ff6a56eb2101ee36dc451aef4a04b7\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\30588fb3712cf35964020c8599af4864\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Reyuna\.gradle\caches\transforms-3\79ff6a56eb2101ee36dc451aef4a04b7\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\79c5bffb82ddcef7b3814d03276f1b2f\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\eb8e6a0d492d640ee859bec71f58d1af\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\79c5bffb82ddcef7b3814d03276f1b2f\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\eb8e6a0d492d640ee859bec71f58d1af\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\79c5bffb82ddcef7b3814d03276f1b2f\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Reyuna\.gradle\caches\transforms-3\eb8e6a0d492d640ee859bec71f58d1af\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
 service#androidx.room.MultiInstanceInvalidationService
-ADDED from [androidx.room:room-runtime:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c677cc611d576dc3dd5754a9233a70e0\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+ADDED from [androidx.room:room-runtime:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b01a68229488159b2a5e328578420476\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
 	android:exported
-		ADDED from [androidx.room:room-runtime:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c677cc611d576dc3dd5754a9233a70e0\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+		ADDED from [androidx.room:room-runtime:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b01a68229488159b2a5e328578420476\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
 	tools:ignore
-		ADDED from [androidx.room:room-runtime:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c677cc611d576dc3dd5754a9233a70e0\transformed\room-runtime-2.5.0\AndroidManifest.xml:28:13-60
+		ADDED from [androidx.room:room-runtime:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b01a68229488159b2a5e328578420476\transformed\room-runtime-2.5.0\AndroidManifest.xml:28:13-60
 	android:directBootAware
-		ADDED from [androidx.room:room-runtime:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c677cc611d576dc3dd5754a9233a70e0\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+		ADDED from [androidx.room:room-runtime:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b01a68229488159b2a5e328578420476\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
 	android:name
-		ADDED from [androidx.room:room-runtime:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\c677cc611d576dc3dd5754a9233a70e0\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+		ADDED from [androidx.room:room-runtime:2.5.0] C:\Users\Reyuna\.gradle\caches\transforms-3\b01a68229488159b2a5e328578420476\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
 receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
 	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
 	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
 	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\21b9fa697433f8f0a7c0daad80a1b674\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Reyuna\.gradle\caches\transforms-3\3aceaf9723faa87ceb27bc44e383cac1\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

@@ -1,13 +1,24 @@
 package com.texttranslate.voiceimage
 
+import android.Manifest
+import android.app.Dialog
 import android.content.ActivityNotFoundException
+import android.content.Context
 import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
+import android.view.Gravity
 import android.view.View
+import android.view.ViewGroup
+import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
 import androidx.annotation.RequiresApi
+import com.gun0912.tedpermission.PermissionListener
+import com.gun0912.tedpermission.normal.TedPermission
 import com.texttranslate.voiceimage.base.PermissionHelperActivity
 import com.texttranslate.voiceimage.base.PermitConstant
 import com.texttranslate.voiceimage.databinding.ActivityHomeBinding
@@ -32,16 +43,20 @@ class HomeActivity : PermissionHelperActivity(), View.OnClickListener {
                 binding!!.mTxtTitle
             )
         )
-        binding!!.mRLStarted.setOnClickListener(this)
+
         binding!!.mRLShare.setOnClickListener(this)
         binding!!.mRLRateUs.setOnClickListener(this)
         binding!!.mRLPrivacy.setOnClickListener(this)
+
+        binding!!.mIVVoice.setOnClickListener(this)
+        binding!!.mIVText.setOnClickListener(this)
+        binding!!.mIVCamera.setOnClickListener(this)
 
         onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
                 if (isEnabled) {
                     isEnabled = false
-                    startActivity(Intent(this@HomeActivity, ExitActivity::class.java))
+                    showExitDialog(this@HomeActivity)
                 }
             }
         })
@@ -77,9 +92,70 @@ class HomeActivity : PermissionHelperActivity(), View.OnClickListener {
         }
     }
 
+    fun showExitDialog(context: Context) {
+        val dialogLogOut = Dialog(context)
+        dialogLogOut.setContentView(R.layout.activity_exit)
+        dialogLogOut.window?.setLayout(
+            ViewGroup.LayoutParams.MATCH_PARENT,
+            ViewGroup.LayoutParams.WRAP_CONTENT
+        )
+        dialogLogOut.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+        dialogLogOut.window?.setGravity(Gravity.BOTTOM)
+        dialogLogOut.setCanceledOnTouchOutside(true)
+        val rateus = dialogLogOut.findViewById<TextView>(R.id.rateus)
+        val btnyes = dialogLogOut.findViewById<TextView>(R.id.yes)
+        val btnno = dialogLogOut.findViewById<TextView>(R.id.no)
+
+        // click listener for No
+        rateus.setOnClickListener {
+            val uri = Uri.parse("market://details?id=$packageName")
+            val goToMarket = Intent(Intent.ACTION_VIEW, uri)
+            goToMarket.addFlags(
+                Intent.FLAG_ACTIVITY_NO_HISTORY or
+                        Intent.FLAG_ACTIVITY_NEW_DOCUMENT or
+                        Intent.FLAG_ACTIVITY_MULTIPLE_TASK
+            )
+            try {
+                startActivity(goToMarket)
+            } catch (e: ActivityNotFoundException) {
+                startActivity(
+                    Intent(
+                        Intent.ACTION_VIEW,
+                        Uri.parse("http://play.google.com/store/apps/details?id=$packageName")
+                    )
+                )
+            }
+            dialogLogOut.dismiss()
+        }
+
+        // click listener for Yes
+        btnyes.setOnClickListener {
+            dialogLogOut.dismiss()
+            finish()
+        }
+        btnno.setOnClickListener {
+            dialogLogOut.dismiss()
+        }
+        dialogLogOut.show()
+    }
+
     override fun onClick(v: View) {
-        if (v === binding!!.mRLStarted) {
-            startActivity(Intent(this@HomeActivity, StartActivity::class.java))
+         if (v === binding!!.mIVVoice) {
+            mCheckVoicePermission()
+        } else if (v === binding!!.mIVText) {
+            startActivity(Intent(this@HomeActivity, TextActivity::class.java))
+        } else if (v === binding!!.mIVCamera) {
+            val isAvailable = Utils.isGooglePlayServicesAvailable(applicationContext)
+            if (isAvailable) {
+                CheckPermission()
+            } else {
+                Toast.makeText(
+                    this@HomeActivity,
+                    "Google Play Services is not available on Your device",
+                    Toast.LENGTH_SHORT
+                ).show()
+            }
+
         } else if (v === binding!!.mRLShare) {
             try {
                 val shareIntent = Intent(Intent.ACTION_SEND)
@@ -119,7 +195,10 @@ class HomeActivity : PermissionHelperActivity(), View.OnClickListener {
             }).show(supportFragmentManager, "")
         } else if (v === binding!!.mRLPrivacy) {
             val browserIntent =
-                Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/OmaPrakash"))
+                Intent(
+                    Intent.ACTION_VIEW,
+                    Uri.parse("https://sites.google.com/view/all-languages-translators")
+                )
             startActivity(browserIntent)
         }
     }
@@ -135,5 +214,80 @@ class HomeActivity : PermissionHelperActivity(), View.OnClickListener {
         }
         intent.addFlags(flags)
         return intent
+    }
+
+    private fun mCheckVoicePermission() {
+        val permissionlistener: PermissionListener = object : PermissionListener {
+            override fun onPermissionGranted() {
+                startActivity(Intent(this@HomeActivity, VoiceActivity::class.java))
+            }
+
+            override fun onPermissionDenied(deniedPermissions: List<String>) {
+                Toast.makeText(
+                    this@HomeActivity,
+                    "Permission Denied\n$deniedPermissions",
+                    Toast.LENGTH_SHORT
+                )
+                    .show()
+            }
+        }
+        TedPermission.create()
+            .setPermissionListener(permissionlistener)
+            .setRationaleTitle(R.string.rationale_title)
+            .setRationaleMessage(R.string.rationale_message_voice)
+            .setDeniedTitle("Permission denied")
+            .setDeniedMessage(
+                "If you reject permission,you can not use this service\n\nPlease turn on permissions at [Setting] > [Permission]"
+            )
+            .setGotoSettingButtonText("Settings")
+            .setPermissions(Manifest.permission.RECORD_AUDIO)
+            .check()
+    }
+
+
+    private fun CheckPermission() {
+        val permissionlistener: PermissionListener = object : PermissionListener {
+            override fun onPermissionGranted() {
+                startActivity(Intent(this@HomeActivity, CameraActivity::class.java))
+            }
+
+            override fun onPermissionDenied(deniedPermissions: List<String>) {
+                Toast.makeText(
+                    this@HomeActivity,
+                    "Permission Denied\n$deniedPermissions",
+                    Toast.LENGTH_SHORT
+                )
+                    .show()
+            }
+        }
+        if (Utils.isLatestVersion) {
+            TedPermission.create()
+                .setPermissionListener(permissionlistener)
+                .setRationaleTitle(R.string.rationale_title)
+                .setRationaleMessage(R.string.rationale_message)
+                .setDeniedTitle("Permission denied")
+                .setDeniedMessage(
+                    "If you reject permission,you can not use this service\n\nPlease turn on permissions at [Setting] > [Permission]"
+                )
+                .setGotoSettingButtonText("Settings")
+                .setPermissions(PermitConstant.Manifest_CAMERA, PermitConstant.READ_MEDIA_IMAGES)
+                .check()
+        } else {
+            TedPermission.create()
+                .setPermissionListener(permissionlistener)
+                .setRationaleTitle(R.string.rationale_title)
+                .setRationaleMessage(R.string.rationale_message)
+                .setDeniedTitle("Permission denied")
+                .setDeniedMessage(
+                    "If you reject permission,you can not use this service\n\nPlease turn on permissions at [Setting] > [Permission]"
+                )
+                .setGotoSettingButtonText("Settings")
+                .setPermissions(
+                    Manifest.permission.CAMERA,
+                    PermitConstant.Manifest_READ_EXTERNAL_STORAGE,
+                    PermitConstant.Manifest_WRITE_EXTERNAL_STORAGE
+                )
+                .check()
+        }
     }
 }

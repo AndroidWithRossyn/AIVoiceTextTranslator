@@ -19,3 +19,11 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# android appcompact
+-dontwarn androidx.**
+-keep class androidx.**
+-keep interface androidx.** { *; }
+
+-dontwarn androidx.databinding.**
+-keep class androidx.databinding.** { *; }
